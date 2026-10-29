@@ -72,6 +72,78 @@
         "systemId": "age-system",
         "systemVersion": "5.0.0"
       }
+    },
+    {
+      "_id": "77ba4dbed285b960",
+      "name": "IT Power",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Tech Type</th><th>Power</th><th>Resources TN</th><th>Example</th></tr></thead><tbody><tr><td>Poor</td><td>-1</td><td>9</td><td>Jury-rigged or quick-printed device, feature-limited trial version</td></tr><tr><td>Standard</td><td>0</td><td>12</td><td>Typical low-end setup</td></tr><tr><td>High End</td><td>+1</td><td>15</td><td>Expensive consumer to standard pro-grade</td></tr><tr><td>Elite</td><td>+2</td><td>18</td><td>Quality custom systems or other usually unavailable to the public</td></tr><tr><td>Restricted</td><td>+3</td><td>N/A*</td><td>Classified systems or works of individual genius</td></tr></tbody></table><p>* Cannot be purchased through normal channels.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.77ba4dbed285b960",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "25ad87230cae5700",
+      "name": "IT Specs",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Spec Rank</th><th>Spec Mod.</th><th>Resources TN</th><th>Example</th></tr></thead><tbody><tr><td>Clunky</td><td>-1</td><td>-2</td><td>Low performance in area</td></tr><tr><td>None</td><td>0</td><td>0</td><td>General-purpose</td></tr><tr><td>Superior</td><td>+1</td><td>+1</td><td>Improved performance in area</td></tr><tr><td>Specialized</td><td>+2</td><td>+3</td><td>Highest consumer-level performance improvement</td></tr><tr><td>Cutting-Edge</td><td>+3</td><td>+5</td><td>Experimental or bespoke</td></tr></tbody></table>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.25ad87230cae5700",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "88c05a2f2cdb2d90",
+      "name": "IT Interface",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Interface</th><th>Resources TN</th><th>Description</th></tr></thead><tbody><tr><td>Immobile</td><td>-4</td><td>Use at a particular site only; transportation is expensive and complex</td></tr><tr><td>Inconvenient</td><td>-2</td><td>Bulky like a desktop computer; a nearly irreplaceable device</td></tr><tr><td>Mobile</td><td>0</td><td>Cotemporary tablet or laptop; software authorized for just a few devices</td></tr><tr><td>Ultramobile</td><td>+3</td><td>Phone to watch-sized; software accessible through many devices</td></tr><tr><td>Omnipresent</td><td>+6</td><td>No external device due to being implanted or offloaded to convenient external servers</td></tr></tbody></table>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.88c05a2f2cdb2d90",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
     }
   ],
   "flags": {},

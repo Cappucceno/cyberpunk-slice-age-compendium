@@ -10,14 +10,14 @@ It is a companion to the [Modern AGE compendium](https://github.com/Cappucceno/m
 |---|---|
 | Cyberpunk Focuses | 9 `focus` items |
 | Cyberpunk Talents and Specializations | 7 talents and the Cyborg, Kinetic, Virtualist and Vor specializations (`talent`, Novice/Expert/Master) |
-| Cyberpunk Weapons / Armor | 5 weapons with their own damage (unarmed upgrades, baton, mono-whip, shuriken); 6 armors with Impact/Ballistic ratings and penalties |
-| Cyberpunk Equipment | 38 items: special ammunition, firearm accessories, grenades and blade upgrades, medical equipment, drugs, sample IT assets, op gear (with Resources TN) |
-| Augmentations | 44 augmentations from the catalog, with Capacity slots in the description |
-| Drones and Vehicles | 16 `vehicle` actors: drones (Health, armor, velocity) and vehicles/exoskeletons (handling, capacity, velocity, ram, hull) |
+| Cyberpunk Weapons / Armor | the 9 rows of the book's weapon tables (unarmed upgrades, baton, monofilament blade and whip, shuriken, flash-bang, smoke, tear gas); 6 armors with Impact/Ballistic ratings and penalties |
+| Cyberpunk Equipment | 38 items: special ammunition, firearm accessories, medical equipment, drugs, sample IT assets, op gear (with Resources TN) |
+| Augmentations | 44 augmentations from the catalog, with Capacity slots in the description; 11 of them carry real modifiers (some switched off, for optional or situational bonuses) |
+| Drones and Vehicles | 16 `vehicle` actors: drones (Health, armor, velocity) and vehicles/exoskeletons (handling, capacity, velocity, ram, hull); values printed with asterisks get an info box with hover notes |
 | Cyberpunk Character Creation | journals: Chapter 1 text, 8 new backgrounds (with benefit tables), 6 professions, 6 drives |
 | Cyberpunk Creation Tables | 16 roll tables: backgrounds per class, profession and drive tables, benefit tables |
 | Cyberpunk Rules Tables | 8 roll tables: Hit Locations (1d6) and the Complications lists (general and 1- to 6-point) |
-| Cyberpunk Rules Reference | journals: Chapter 2 (equipment text), Chapter 3 (augmentation rules) and clean Rules Tables (automation classes, IT firewall, hit locations) |
+| Cyberpunk Rules Reference | journals: Chapter 2 (equipment text), Chapter 3 (augmentation rules) and clean Rules Tables (automation classes, IT power, firewall, specs and interface, hit locations) |
 | Game Mastering and Cyberspace | journal: Chapter 4 (the genre, cyberspace, hacking) |
 
 Some text of the book is cut in pieces by sidebars in the PDF layout. The Cybercombat Style, Kinetic Talent and Precision entries were reassembled

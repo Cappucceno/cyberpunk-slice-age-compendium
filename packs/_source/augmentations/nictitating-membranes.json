@@ -14,13 +14,24 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your eyes have additional transparent protective “inner eyelids.” These membranes grant you a +2 bonus on all tests to resist attacks targeting your eyes, including bright lights, irritants, and so forth, and allow you to re-roll a failed test to resist such attacks, although you must use the results of the second test.</p>",
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your eyes have additional transparent protective “inner eyelids.” These membranes grant you a +2 bonus on all tests to resist attacks targeting your eyes, including bright lights, irritants, and so forth, and allow you to re-roll a failed test to resist such attacks, although you must use the results of the second test.</p><p><em>Game modifiers on this item: consTest +2 (tests to resist attacks targeting the eyes, off). Items apply their modifiers while equipped; switch the ones that are off on when they apply.</em></p>",
     "shortDesc": "1 Slot",
     "weight": 0,
     "cost": 0,
     "quantity": 1,
     "equiped": false,
-    "modifiers": {}
+    "modifiers": {
+      "a9e16d050e0ee314": {
+        "type": "consTest",
+        "formula": "2",
+        "flavor": "tests to resist attacks targeting the eyes",
+        "isActive": false,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "a9e16d050e0ee314"
+      }
+    }
   },
   "ownership": {
     "default": 0

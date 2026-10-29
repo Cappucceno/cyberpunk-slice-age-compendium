@@ -14,13 +14,24 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You have an engineered layer of subcutaneous fat, or a thick coat of fur or hair on your body, something that insulates you against the cold. You reduce the effects of cold-related hazards by 1d6 and gain a +2 bonus on tests to resist them.</p>",
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You have an engineered layer of subcutaneous fat, or a thick coat of fur or hair on your body, something that insulates you against the cold. You reduce the effects of cold-related hazards by 1d6 and gain a +2 bonus on tests to resist them.</p><p><em>Game modifiers on this item: consTest +2 (tests to resist cold hazards, off). Items apply their modifiers while equipped; switch the ones that are off on when they apply.</em></p>",
     "shortDesc": "1 Slot",
     "weight": 0,
     "cost": 0,
     "quantity": 1,
     "equiped": false,
-    "modifiers": {}
+    "modifiers": {
+      "86b76c9f8d32a93a": {
+        "type": "consTest",
+        "formula": "2",
+        "flavor": "tests to resist cold hazards",
+        "isActive": false,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "86b76c9f8d32a93a"
+      }
+    }
   },
   "ownership": {
     "default": 0

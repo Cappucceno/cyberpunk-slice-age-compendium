@@ -14,13 +14,24 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your voice box and vocal cords are replaced and augmented. This allows you to change your voice to mimic a wide range of sounds in addition to simply disguising it. You get a +2 bonus on Communication (Deception) tests involving vocal mimicry and to Communication (Performing) tests for singing. A cybernetic larynx might be further augmented with a sonic or ultrasonic Weapon Implant (see Weapon Implant, following) but that is considered a separate augmentation.</p>",
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your voice box and vocal cords are replaced and augmented. This allows you to change your voice to mimic a wide range of sounds in addition to simply disguising it. You get a +2 bonus on Communication (Deception) tests involving vocal mimicry and to Communication (Performing) tests for singing. A cybernetic larynx might be further augmented with a sonic or ultrasonic Weapon Implant (see Weapon Implant, following) but that is considered a separate augmentation.</p><p><em>Game modifiers on this item: commTest +2 (Communication (Deception) vocal mimicry and Communication (Performing) singing, off). Items apply their modifiers while equipped; switch the ones that are off on when they apply.</em></p>",
     "shortDesc": "1 Slot",
     "weight": 0,
     "cost": 0,
     "quantity": 1,
     "equiped": false,
-    "modifiers": {}
+    "modifiers": {
+      "94ba46c5e165e1b7": {
+        "type": "commTest",
+        "formula": "2",
+        "flavor": "Communication (Deception) vocal mimicry and Communication (Performing) singing",
+        "isActive": false,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "94ba46c5e165e1b7"
+      }
+    }
   },
   "ownership": {
     "default": 0

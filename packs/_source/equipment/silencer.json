@@ -14,7 +14,7 @@
   "type": "equipment",
   "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
   "system": {
-    "longDesc": "<p>Resources TN 13.</p>",
+    "longDesc": "<p>A muzzle attachment baffles the expanding gases from a gunshot better than a modern-day flash suppressor. In addition to having the sound effects of a suppressor (see p. 79 of Modern AGE) the advanced silencer changes the difficulty to hear the gunshot from automatic to a TN 9 Perception (Hearing) test. Advanced silencers are common accessories for assassins.</p><p>Resources TN 13.</p>",
     "shortDesc": "",
     "weight": 0,
     "cost": 0,

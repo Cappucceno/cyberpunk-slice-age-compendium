@@ -27,7 +27,7 @@
     "ramDmg": 4,
     "hull": 3,
     "cost": 0,
-    "description": "<p>Pioneered in Russia, these large winged GEVs use aerodynamic shapes and vectored thrust to travel over land and water at heights measured in yards. These operate best on water, where they gain a +1 Velocity modifier, but they cannot traverse steep inclines on land. Smaller and larger models exist.</p><p>Handling +1; velocity Extreme/0; hull 3; cannot be purchased under ordinary circumstances.</p>",
+    "description": "<div style=\"border:1px solid #888;border-radius:4px;padding:6px;margin:6px 0\"><p><strong>Values as printed in the book</strong> (hover over a marked value for its note)</p><p><strong>Handling:</strong> +1 &middot; <strong>Velocity:</strong> Extreme/0 &middot; <strong>Hull:</strong> 3 &middot; <strong>Resources TN:</strong> N/A<span title=\"Cannot be purchased under ordinary circumstances.\" style=\"border-bottom:1px dotted;cursor:help;font-weight:bold\">**</span></p><ul><li><strong>**</strong> Cannot be purchased under ordinary circumstances.</li></ul></div><p>Pioneered in Russia, these large winged GEVs use aerodynamic shapes and vectored thrust to travel over land and water at heights measured in yards. These operate best on water, where they gain a +1 Velocity modifier, but they cannot traverse steep inclines on land. Smaller and larger models exist.</p><p>Handling +1; velocity Extreme/0; hull 3; cannot be purchased under ordinary circumstances.</p>",
     "gmNotes": "",
     "coverRating": 0,
     "armorRating": 0

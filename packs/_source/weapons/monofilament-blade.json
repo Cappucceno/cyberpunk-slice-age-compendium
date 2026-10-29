@@ -2,7 +2,7 @@
   "name": "Monofilament Blade",
   "_id": "daf3983d764fbf08",
   "_key": "!items!daf3983d764fbf08",
-  "folder": "d4fa1b8fa14e661f",
+  "folder": "43d966a49d8d957a",
   "sort": 0,
   "flags": {},
   "effects": [],
@@ -11,17 +11,27 @@
     "systemId": "age-system",
     "systemVersion": "5.0.0"
   },
-  "type": "equipment",
-  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
   "system": {
-    "longDesc": "<p>Cyberpunk blades may be equipped with a monofilament edge, honed incredibly sharp. This adds +2 to the weapon’s normal damage and the wielder of a monofilament blade can perform the Precise Force stunt for 1 SP rather than 2. If they choose to spend 2 SP on the stunt, it ignores all the target’s Armor Rating from equipment.</p><p>Focus: Light or Heavy Blades. Resources TN +2**.</p>",
+    "longDesc": "<p>Cyberpunk blades may be equipped with a monofilament edge, honed incredibly sharp. This adds +2 to the weapon’s normal damage and the wielder of a monofilament blade can perform the Precise Force stunt for 1 SP rather than 2. If they choose to spend 2 SP on the stunt, it ignores all the target’s Armor Rating from equipment.</p><p>The listed damage and Resources TN are in addition to the blade's normal damage and cost.</p><p>Focus: Light or Heavy Blades. Resources TN +2.</p>",
     "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "light or heavy blades",
+    "minStr": 0,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 2,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "2",
     "weight": 0,
     "cost": 0,
     "quantity": 1,
     "equiped": false,
     "purchaseTN": 2,
-    "modifiers": {}
+    "ranged": false
   },
   "ownership": {
     "default": 0

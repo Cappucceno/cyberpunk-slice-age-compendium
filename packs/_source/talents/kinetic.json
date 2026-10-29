@@ -21,7 +21,7 @@
     "degree": 0,
     "activate": true,
     "degree0": {
-      "desc": "<p>You need to be ready for action in any situation. You gain +1 to Initiative tests, and if you make a test to detect an ambush or other hidden threat to your physical safety, such as a booby trap or drone, you (or the GM rolling on your behalf) can re-roll a failure, but the second result is final.</p><p>Each rank in the Cyborg specialization’s talent entitles you to one of the following additional benefits. Some particularly potent benefits have attached drawbacks, noted in the text. The Game Master can add to this list. If the GM decides augmentations are swappable, you may change benefits whenever you change your augmentations.</p>",
+      "desc": "<p>You need to be ready for action in any situation. You gain +1 to Initiative tests, and if you make a test to detect an ambush or other hidden threat to your physical safety, such as a booby trap or drone, you (or the GM rolling on your behalf) can re-roll a failure, but the second result is final.</p>",
       "isActive": true
     },
     "degree1": {

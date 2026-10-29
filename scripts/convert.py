@@ -82,6 +82,7 @@ def talent_system(kind, req, desc, deg, extra=""):
     return system
 
 
+BENEFITS_INTRO = "Each rank in the Cyborg specialization"
 CYBORG_BENEFITS = ("Armored", "Disposable Body", "Optimized (Synthetic Body)", "Precision", "Ruggedized", "Secure", "Surge", "Tactical")
 
 
@@ -131,6 +132,8 @@ def build_talents(pdf):
         cut = next((i for i, b in enumerate(body) if b[0] == "h" and b[1] <= 2), len(body))
         body = body[:cut]       # the next specialization's heading and text follow in the same page flow
         req, desc, deg, rest = parse_talent(body)
+        for d_ in deg.values():     # the intro of the Cyborg Benefits sidebar is printed in the middle of the Kinetic degrees
+            d_[:] = [t for t in d_ if not t.startswith(BENEFITS_INTRO)]
         extra = ""
         if title == "Cybercombat Style":
             req, desc, deg = cybercombat(body)
@@ -139,7 +142,8 @@ def build_talents(pdf):
             flavor = spec_flavor(bl, name)
             desc = flavor + desc
             if name == "Cyborg":
-                extra = "<h3>Cyborg Benefits</h3>" + "".join(f"<h4>{esc(t)}</h4>" + "".join(p(x) for x in paras(b)) for t, b in benefits.items())
+                intro = next((text(b[1]) for t_, _, body_ in ents for b in body_ if b[0] == "p" and text(b[1]).startswith(BENEFITS_INTRO)), "")
+                extra = "<h3>Cyborg Benefits</h3>" + (p(intro) if intro else "") + "".join(f"<h4>{esc(t)}</h4>" + "".join(p(x) for x in paras(b)) for t, b in benefits.items())
         pack.item(name, "talent", talent_system("spec" if spec else "talent", req, desc, deg, extra), "skills.svg",
                   folder="Specializations" if spec else "Talents")
     return pack
@@ -420,10 +424,12 @@ def descriptions(pdf, first, last):
 
 
 def desc_for(defs, name):
+    lower = {k.lower(): v for k, v in defs.items()}
     for key in (name, name.rstrip("s"), name + "s"):
-        if defs.get(key):
-            return defs[key]
-    return []
+        if lower.get(key.lower()):
+            return lower[key.lower()]
+    # 'Silencer' is described under 'Silencer, Advanced'
+    return next((v for k, v in lower.items() if v and k.startswith(name.lower() + ",")), [])
 
 
 TN_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z0-9'‘’/&\-. ()]*?[A-Za-z)])\s{2,}(?P<tn>\d+\+?(?: \([a-z]+\))?)\*?\s*$")
@@ -499,7 +505,7 @@ def parse_weapon_rows(pdf):
 
 
 def build_weapons(pdf):
-    """The weapons that have a damage of their own; blade upgrades and grenades without damage go to the equipment pack."""
+    """All rows of the two weapon tables of the book, in the order and focus groups it prints them."""
     pack = Pack("weapons")
     defs = descriptions(pdf, 24, 26)
     for w in parse_weapon_rows(pdf):
@@ -524,15 +530,24 @@ def build_weapons(pdf):
             s.update({"rof": "singleShot" if rest and rest[0].startswith("SS") else "semiAuto", "range": 15, "rangeMax": 22, "capacity": 0,
                       "reload": "major" if "Major" in rest else "minor"})
         pack.item(w["name"], "weapon", s, "fist.svg", folder=w["focus"])
-    # grenades without damage and the monofilament upgrade are plain equipment
+    # rows without a damage of their own stay weapons, as in the book: the monofilament edge adds to a blade, grenades act through their effect
     for w in parse_weapon_rows(pdf):
         if re.match(r"(\d+d\d+|\+1)", w["dmg"]):
             continue
         d = "".join(p(x) for x in desc_for(defs, w["name"]) or desc_for(defs, w["name"] + "s") or desc_for(defs, w["name"] + "-Bangs"))
-        pack.item(w["name"], "equipment", {
-            "longDesc": d + p(f"Focus: {w['focus']}. Resources TN {w['tn']}."), "shortDesc": "", "weight": 0, "cost": 0, "quantity": 1,
-            "equiped": False, "purchaseTN": num(w["tn"].strip("+*")), "modifiers": {},
-        }, "briefcase.svg", folder="Grenades and Upgrades")
+        edge = w["dmg"].startswith("+")
+        note = ("<p>The listed damage and Resources TN are in addition to the blade's normal damage and cost.</p>" if edge
+                else "<p>This weapon inflicts no damage; see its effect above.</p>")
+        s = {
+            "longDesc": d + note + p(f"Focus: {w['focus']}. Resources TN {w['tn'].rstrip('*')}."), "shortDesc": "",
+            "useAbl": "fight" if edge else "acc", "useFocus": w["focus"].lower(), "minStr": 0, "nrDice": "0", "diceType": "6",
+            "extraValue": 2 if edge else 0, "dmgAbl": "no-abl", "dmgType": "wound", "dmgSource": "impact",
+            "damageFormula": "2" if edge else "0", "weight": 0, "cost": 0, "quantity": 1, "equiped": False,
+            "purchaseTN": num(w["tn"].strip("+*")), "ranged": not edge,
+        }
+        if not edge:
+            s.update({"rof": "singleShot", "range": 15, "rangeMax": 22, "capacity": 0, "reload": "minor"})
+        pack.item(w["name"], "weapon", s, "fist.svg", folder=w["focus"])
     return pack
 
 
@@ -563,6 +578,37 @@ DRONE_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z\- ]+?)\s{2,}(?P<spd>Fast/[+�
 FOCUS_ABL = {"Acrobatics": "dex", "Piloting": "dex", "Remote Operation": "dex", "Running": "cons", "Driving": "dex"}
 
 
+def vehicle_footnotes(pdf):
+    """{'*': text, '**': text, ...} from the notes printed under the vehicle table (page 30)."""
+    lines = pdftotext(pdf, 30, 30, "-layout")[0].splitlines()
+    i = next(i for i, l in enumerate(lines) if "Combat Exoskeleton" in l and "Fast" in l)
+    txt = " ".join(squash(l) for l in lines[i + 1:i + 8] if l.strip() and not l.strip().startswith("Chapter 2"))
+    parts = re.split(r"(?<!\*)(\*{1,5})(?!\*)\s*", txt)
+    return {parts[k]: squash(parts[k + 1]) for k in range(1, len(parts) - 1, 2)}
+
+
+def starred(value, notes):
+    """HTML for a table value whose asterisks have a hover note."""
+    m = re.match(r"^(.*?)(\*+)$", value)
+    if not m:
+        return esc(value)
+    base, stars = m.groups()
+    note = notes.get(stars, "")
+    return f'{esc(base)}<span title="{esc(note)}" style="border-bottom:1px dotted;cursor:help;font-weight:bold">{stars}</span>'
+
+
+def vehicle_infobox(d, notes):
+    """A box with the book's table values and their notes; hover over a marked value for its meaning."""
+    cells = [("Handling", d["hand"]), ("Velocity", d["vel"]), ("Hull", d["hull"]), ("Resources TN", d["tn"])]
+    if not any("*" in v for _, v in cells):
+        return ""
+    stars = sorted({s for _, v in cells for s in re.findall(r"\*+", v)}, key=len)
+    notes_html = "".join(f"<li><strong>{s}</strong> {esc(notes.get(s, ''))}</li>" for s in stars)
+    values = " &middot; ".join(f"<strong>{k}:</strong> {starred(v, notes)}" for k, v in cells)
+    return (f'<div style="border:1px solid #888;border-radius:4px;padding:6px;margin:6px 0"><p><strong>Values as printed in the book</strong> '
+            f"(hover over a marked value for its note)</p><p>{values}</p><ul>{notes_html}</ul></div>")
+
+
 def build_vehicles(pdf):
     pack = Pack("vehicles", "Actor")
     defs = descriptions(pdf, 29, 33)
@@ -583,6 +629,7 @@ def build_vehicles(pdf):
             "partHealth": {"max": int(d["hp"]), "value": int(d["hp"])},
         }, "Drones")
     focus = None
+    notes = vehicle_footnotes(pdf)
     for line in pdftotext(pdf, 31, 31, "-layout")[0].splitlines() + pdftotext(pdf, 30, 30, "-layout")[0].splitlines():
         m = FOCUS_LINE.match(line[:150])
         if m:
@@ -598,7 +645,7 @@ def build_vehicles(pdf):
                 "handling": {"mod": num(d["hand"]) if d["hand"][0] != "*" else 0, "useFocus": focus.lower(), "useAbl": FOCUS_ABL.get(focus, "dex")},
                 "capacity": int(d["cap"]), "velocity": {"category": VELOCITY[cls], "catMod": num(mod.strip("*")) if mod.strip("*") else 0},
                 "ramDmg": int(d["ram"].split("d")[0]), "hull": int(d["hull"]) if d["hull"][0] != "*" else 0, "cost": 0,
-                "description": text_ + p(f"Handling {d['hand']}; velocity {d['vel']}; hull {d['hull']}; " + (f"Resources TN {tn}." if tn else "cannot be purchased under ordinary circumstances.")),
+                "description": vehicle_infobox(d, notes) + text_ + p(f"Handling {d['hand']}; velocity {d['vel']}; hull {d['hull']}; " + (f"Resources TN {tn}." if tn else "cannot be purchased under ordinary circumstances.")),
                 "gmNotes": "", "coverRating": 0, "armorRating": 0,
             }, focus)
     return pack
@@ -607,6 +654,30 @@ def build_vehicles(pdf):
 # --------------------------------------------------------------------------- augmentations (Chapter 3, p45-50)
 
 AUG_TITLE = re.compile(r"^(?P<name>.+?) (?P<slots>Cosmetic \(0 Slots\)|\d(?: or \d)?\+? Slots?)$")
+
+
+# Game modifiers for the augmentations whose effect is a plain bonus. Optional or situational bonuses are added switched off:
+# enable them in the item's modifiers tab when they apply. (kind, formula, note, active, focus)
+AUG_MODS = {
+    "Cybernetic Ear": [("focus", "1", "Perception (Hearing) focus, +1 per enhancement spent on it", False, "Hearing")],
+    "Cybernetic Eye": [("focus", "1", "Perception (Seeing) focus, +1 per enhancement spent on it", False, "Seeing")],
+    "Computer Processor": [("intTest", "2", "tests where the processing capacity helps (Intelligence)", False, None)],
+    "Cybernetic Larynx": [("commTest", "2", "Communication (Deception) vocal mimicry and Communication (Performing) singing", False, None)],
+    "Dermal Reinforcement": [("toughness", "1", "+1 Toughness per enhancement", True, None)],
+    "Gyroscopic Balance": [("dexTest", "2", "Dexterity (Acrobatics) and tests to avoid being thrown off-balance", False, None)],
+    "Insulation": [("consTest", "2", "tests to resist cold hazards", False, None)],
+    "Nictitating Membranes": [("consTest", "2", "tests to resist attacks targeting the eyes", False, None)],
+    "Memory Implant": [("commTest", "2", "tests to pretend to be the person of the false memories", False, None)],
+    "Targeting System": [("aimMnv", "1", "Aim bonus with firearms", False, None)],
+    "Vehicle Rig": [("focus", "1", "Dexterity (Driving) focus, +1 if chosen", False, "Driving"),
+                    ("focus", "1", "Dexterity (Piloting) focus, +1 if chosen", False, "Piloting")],
+}
+
+
+def aug_modifier(kind, formula, note, active, focus):
+    mid = make_id("augmentation-modifier", f"{kind}{formula}{note}")
+    return mid, {"type": kind, "formula": formula, "flavor": note, "isActive": active, "valid": True,
+                 "conditions": {"focus": focus} if focus else {}, "ftype": "", "key": mid}
 
 
 def build_augmentations(pdf):
@@ -620,9 +691,12 @@ def build_augmentations(pdf):
             continue
         name, slots = m.group("name"), m.group("slots")
         body = body[: next((i for i, b in enumerate(body) if b[0] == "h"), len(body))]
+        mods = dict(aug_modifier(*m) for m in AUG_MODS.get(name, []))
+        note = ("<p><em>Game modifiers on this item: " + "; ".join(f"{m['type']} +{m['formula']} ({m['flavor']}, {'on' if m['isActive'] else 'off'})" for m in mods.values())
+                + ". Items apply their modifiers while equipped; switch the ones that are off on when they apply.</em></p>") if mods else ""
         pack.item(name, "equipment", {
-            "longDesc": f"<p><strong>Capacity:</strong> {esc(slots)}</p>" + render(body), "shortDesc": slots, "weight": 0, "cost": 0, "quantity": 1,
-            "equiped": False, "modifiers": {},
+            "longDesc": f"<p><strong>Capacity:</strong> {esc(slots)}</p>" + render(body) + note, "shortDesc": slots, "weight": 0, "cost": 0, "quantity": 1,
+            "equiped": False, "modifiers": mods,
         }, "briefcase.svg", folder="Cosmetic Alterations" if slots.startswith("Cosmetic") else "Augmentations")
     return pack
 
@@ -691,6 +765,38 @@ def build_rules_tables(pdf):
     return pack
 
 
+def it_table(pdf, page, labels, top_lo, top_hi, cols, example_from):
+    """Rows of an IT table from element positions: a value column is read on the row's own line, while the wrapped
+    example text (centred on the row) is assigned to the nearest row."""
+    pages, _ = book(pdf)
+    els = [e for e in pages[page] if e["left"] < 452 and top_lo <= e["top"] <= top_hi and e["size"] >= 12]   # smaller text is the header
+    rows = []
+    for lab in labels:
+        e = next(e for e in els if text(e["html"]) == lab and e["left"] < cols[0])
+        rows.append({"label": lab, "top": e["top"], "cells": [], "ex": []})
+    for e in els:
+        t = text(e["html"])
+        if e["left"] >= example_from:
+            nearest = min(rows, key=lambda r: abs(r["top"] - e["top"]))
+            nearest["ex"].append((e["top"], t))
+        else:
+            for r in rows:
+                if abs(r["top"] - e["top"]) <= 6 and e["left"] >= cols[0]:
+                    r["cells"].append((e["left"], t))
+    return [[r["label"]] + [t for _, t in sorted(r["cells"])] + [" ".join(t for _, t in sorted(r["ex"])).replace("- ", "-")] for r in rows]
+
+
+def it_tables(pdf):
+    power = it_table(pdf, 35, ["Poor", "Standard", "High End", "Elite", "Restricted"], 330, 600, (140, ), 285)
+    specs = it_table(pdf, 35, ["Clunky", "None", "Superior", "Specialized", "Cutting-Edge"], 880, 1100, (170, ), 290)
+    iface = []
+    for line in pdftotext(pdf, 36, 36, "-layout")[0].splitlines():
+        m = re.match(r"^\s*(Immobile|Inconvenient|Mobile|Ultramobile|Omnipresent)\s+([+\-–]?\d+)\s{2,}(\S.*)$", line)
+        if m:
+            iface.append(list(m.groups()))
+    return power, specs, iface
+
+
 def rules_tables_pages(pdf):
     auto = table_rows(pdf, 23, ["automation"])
     fire = table_rows(pdf, 35, ["firewall"])
@@ -702,6 +808,10 @@ def rules_tables_pages(pdf):
         pages.append(("IT Firewall", table_html(["Firewall", "Resources TN", "Structure", "Integrity/Crypto"], rows)))
     locs = hit_locations(pdf)
     pages.append(("Hit Locations", table_html(["Lowest Attack Die", "Location/Penalty"], locs)))
+    power, specs, iface = it_tables(pdf)
+    pages.append(("IT Power", table_html(["Tech Type", "Power", "Resources TN", "Example"], power) + p("* Cannot be purchased through normal channels.")))
+    pages.append(("IT Specs", table_html(["Spec Rank", "Spec Mod.", "Resources TN", "Example"], specs)))
+    pages.append(("IT Interface", table_html(["Interface", "Resources TN", "Description"], iface)))
     return pages
 
 
