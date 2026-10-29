@@ -1,0 +1,39 @@
+{
+  "name": "Virtual Combat Style",
+  "_id": "26337bd3e1586afc",
+  "_key": "!items!26337bd3e1586afc",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You may not be the fastest or strongest in the real world, but in virtual environments, you’re a warrior as swift as a digitized thought.</p>",
+    "shortDesc": "",
+    "requirement": "Perception 2 and the Accuracy (Virtuality) focus.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Fighting methods are just information, easily sorted into auto-executable codes and shortcut commands. In a virtual environment, you can use the Activate action to instantly acquire Novice degree in another fighting style talent (one with the word “style” in its name) without having the usual prerequisites. You cannot make use of this talent degree in the real world. You must select these from a roster of talents equal to your Intelligence + Computers focus bonus. To change style, you must use another Activate action.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>In virtual environments, your reflexes are formidable. You can now take up to two degrees from up to two different talents, with a limit of Expert degree, from your style roster to use in virtual environments, and you may add your Perception (Codefinding) focus bonus to your initiative in these simulations or representations of data.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your virtual combat abilities are peerless. You can now take up to three degrees from up to three different talents, with a limit of Master degree, from your style roster to use in virtual environments, and you gain +1 SP whenever you roll doubles for combat or action-related tasks in the digital realm.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Gigwork",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Gigwork benefit",
+  "results": [
+    {
+      "_id": "67ed97c9011a9643",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.67ed97c9011a9643"
+    },
+    {
+      "_id": "5181bd93337c768f",
+      "type": "text",
+      "name": "Focus: Intelligence (Computers)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.5181bd93337c768f"
+    },
+    {
+      "_id": "20a776afdff366b8",
+      "type": "text",
+      "name": "Focus: Dexterity (Crafting)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.20a776afdff366b8"
+    },
+    {
+      "_id": "84ee5d187404fb41",
+      "type": "text",
+      "name": "Focus: Intelligence (Current Affairs)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.84ee5d187404fb41"
+    },
+    {
+      "_id": "9cbdf5afbb7aa833",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.9cbdf5afbb7aa833"
+    },
+    {
+      "_id": "599e89ea03576e3b",
+      "type": "text",
+      "name": "Focus: Perception (Codefinding)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.599e89ea03576e3b"
+    },
+    {
+      "_id": "42cbcb970444ad37",
+      "type": "text",
+      "name": "Focus: Intelligence (Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.42cbcb970444ad37"
+    },
+    {
+      "_id": "c2edfbb6f78ed4e7",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!70ce0aa52f6bbc71.c2edfbb6f78ed4e7"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "70ce0aa52f6bbc71",
+  "_key": "!tables!70ce0aa52f6bbc71"
+}

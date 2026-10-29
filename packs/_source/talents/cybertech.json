@@ -1,0 +1,39 @@
+{
+  "name": "Cybertech",
+  "_id": "841cb9c0eef77a6d",
+  "_key": "!items!841cb9c0eef77a6d",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to install and repair augmentations, such as those described in Chapter 3, with professional-level skill. If different augmentations require vastly different skillsets, or are, for one reason or another, treated as separate technologies, this talent should be divided between these technologies accordingly.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 1 and the Intelligence (Cybernetics) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your competence as a cybernetics technician is without question. If you fail an Intelligence (Cybernetics) test, you may re-roll it, but must accept the second result.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can perform swift, effective repairs on augmentations. Repairs measured in days take you the same number of hours. Similarly, hours become minutes, minutes become major actions, and major actions become minor actions. (No improvement is possible after minor action duration.) This affects both basic and advanced tests. You’re fast, and you’re good.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are an artist of human augmentation. You can create new augmentations by consulting with the Game Master. Furthermore, you can install a number of augmentations equal to your Intelligence with such skill that their Capacity cost decreases by 1, unless the Capacity cost was already 1, in which case it decreases to 0.5. Upon gaining a new level you can swap out one of the augmentations that benefits from your skill.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

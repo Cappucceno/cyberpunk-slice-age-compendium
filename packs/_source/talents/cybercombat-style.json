@@ -1,0 +1,39 @@
+{
+  "name": "Cybercombat Style",
+  "_id": "f967937829d79e79",
+  "_key": "!items!f967937829d79e79",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Flesh is weak. The right augmentations change personal combat, and you know how to integrate yours into the way you fight. Each degree grants you one special quality you can use in conjunction with a type of augmentation from Chapter 3, as listed in the Cybercombat Qualities sidebar, along with additional benefits.</p><h3>Cybercombat Qualities</h3><p>You may take the following cybercombat qualities with degrees of the Cybercombat Style talent as long as you have a given quality’s required augmentation (type or specific example), listed in brackets. The Game Master may add to this list, or you might run new qualities by them for approval.</p><h4>Anti-Grapple</h4><p><em>Joint Flexibility, Strength- Based Force Multiplier</em></p><p>You’re too strong or flexible to hold onto. To use any Grappling Stunts or any stunts based on a Fighting (Grappling) attack, your opponent must first spend SP equal to the slot value of your qualifying augmentations. If the attacker has qualifying augmentations as well, however, they nullify this benefit for SP equal to the slots they possess in them.</p><h4>Auto-Targeting</h4><p><em>Ranged or Melee Attack Extraordinary Stunts</em></p><p>You can attack with robotic precision. You may choose to add your attack bonus from a single focus pair related to one of your extraordinary stunts to a static 10 instead of rolling 3d6. Besides losing the option of higher results from lucky rolls of the dice, your “roll” is never considered to score doubles, and the Stunt Die is treated as if it landed on 3 for degrees of success, reloading, and other such situations. You can take auto-targeting multiple times, each for a different focus, if that focus can be used with the prerequisite augmentation.</p><h4>Ballistic Melee</h4><p><em>Cybernetic Limb, Strength- Based Force Multiplier</em></p><p>Your unarmed attacks inflict ballistic damage, shredding through lesser armor and flesh.</p><h4>Break Attack</h4><p><em>Cybernetic Arm, Dermal Armor</em></p><p>You know how to lean into an attack with an unnaturally tough body part to injure an unarmed opponent or wrench their weapon away. Use a minor action to activate break attack until your next turn. If an opponent hits you with a melee attack within that time, roll a dexterity (Initiative) test with a TN equal to the attack roll. If you succeed against an unarmed opponent, they take 1d6 + Strength impact stun damage. If the opponent has a melee weapon that is not implanted or attacked, you may immediately use the Disarm stunt against them. Note that your opponent may still hit you and inflict damage even if you succeed, but striking your unyielding body still injures or possibly disarms them.</p><h4>Improvised Mayhem</h4><p><em>Upper Body Strength- Based Force Multiplier</em></p><p>You’re strong enough to pick up very heavy things, or rip them out of the ground, as weapons, and practiced enough to do it instantly. You can use a traffic sign as a quarterstaff, or a motorcycle as a bludgeon. If there’s something heavy you can grab or tear away to use as a weapon, you can do so once per round without using an action. Your improvised weapon inflicts 1d6 impact wound damage, up to +1d6 per rank of Force Multiplier (not the actual multiplier) you possess, provided whatever you grab is heavy enough to justify that damage. If you use it in melee combat, it breaks after 1d3 rounds. If you throw it, it breaks instantly. The disadvantage is that these objects are imprecise weapons, to say the least, and you take a -2 penalty to attack rolls.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy 1, Fighting 1, and 1 slot of augmentations",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain one cybercombat quality.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one additional cybercombat quality (two total). Furthermore, if you invoke a cybercombat quality in conjunction with a successful attack that scores doubles, you gain +1 SP. If you invoke a cybercombat quality to successfully defend against an attack or reduce its damage to 0, you gain 1 SP that can be used to take the Adrenaline Rush, Duck and Weave, or Skirmish stunts, or improve the potency of one of the stunts if you took in through another source of SP.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one additional cybercombat quality (three total). Furthermore, you can delay the effects of up to 2 ranks of exceeding your Capacity during action encounters. You do not suffer ability reduction, ignore damage taken as a penalty for exceeding Capacity, and do not suffer complications during these events—but the full effects return after an action scene, and assert themselves on top of any injuries or other disadvantages. Thus, if the Breakdown effect caused you 5 points of damage, you would ignore that damage for the encounter, but if you were reduced to 3 Health at its conclusion, not counting breakdown damage, the end of the encounter would immediately drop you to 0 Health.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

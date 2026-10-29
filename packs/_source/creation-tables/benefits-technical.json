@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Technical",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Technical benefit",
+  "results": [
+    {
+      "_id": "67cbe5a604c8956f",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.67cbe5a604c8956f"
+    },
+    {
+      "_id": "82d21ffa8c99c678",
+      "type": "text",
+      "name": "Focus: Intelligence (Computers)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.82d21ffa8c99c678"
+    },
+    {
+      "_id": "0d20cbbd71d0adf7",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.0d20cbbd71d0adf7"
+    },
+    {
+      "_id": "918874e1a7f7a419",
+      "type": "text",
+      "name": "Focus: Intelligence (Cybernetics)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.918874e1a7f7a419"
+    },
+    {
+      "_id": "d66e9549d4c96846",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.d66e9549d4c96846"
+    },
+    {
+      "_id": "0b9b1377b6eafa5c",
+      "type": "text",
+      "name": "Focus: Perception (Empathy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.0b9b1377b6eafa5c"
+    },
+    {
+      "_id": "1c830ffe7cb748a4",
+      "type": "text",
+      "name": "Focus: Intelligence (Electronics)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.1c830ffe7cb748a4"
+    },
+    {
+      "_id": "bfe9962bba6bd78c",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bd8b2714a120125f.bfe9962bba6bd78c"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "bd8b2714a120125f",
+  "_key": "!tables!bd8b2714a120125f"
+}

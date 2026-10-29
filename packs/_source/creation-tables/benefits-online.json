@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Online",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Online benefit",
+  "results": [
+    {
+      "_id": "011f61a81c3a912d",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.011f61a81c3a912d"
+    },
+    {
+      "_id": "626afadb22ba6044",
+      "type": "text",
+      "name": "Focus: Intelligence (Computers)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.626afadb22ba6044"
+    },
+    {
+      "_id": "9103b1abf38b3ac1",
+      "type": "text",
+      "name": "Focus: Dexterity (Initiative)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.9103b1abf38b3ac1"
+    },
+    {
+      "_id": "5125311ad7e2e05f",
+      "type": "text",
+      "name": "Focus: Intelligence (Evaluation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.5125311ad7e2e05f"
+    },
+    {
+      "_id": "0a64335cad43fcef",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.0a64335cad43fcef"
+    },
+    {
+      "_id": "64f0c526201083a0",
+      "type": "text",
+      "name": "Focus: Perception (Codefinding)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.64f0c526201083a0"
+    },
+    {
+      "_id": "1fdbd19ba29e23c2",
+      "type": "text",
+      "name": "Focus: Intelligence (Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.1fdbd19ba29e23c2"
+    },
+    {
+      "_id": "c1ca5154f6614e32",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!59dc32b389614324.c1ca5154f6614e32"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "59dc32b389614324",
+  "_key": "!tables!59dc32b389614324"
+}

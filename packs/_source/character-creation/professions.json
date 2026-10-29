@@ -1,0 +1,162 @@
+{
+  "name": "Professions",
+  "pages": [
+    {
+      "_id": "7a4689de67b04a34",
+      "name": "Assassin",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Upper Class</em></p><p>You have been trained (perhaps even programmed, using direct mental input) to discreetly monitor or eliminate the enemies of a current or former patron. Your wealth is not only the result of payment for services rendered, but part of your strategy to get close to targets, no matter how remote they might be. This profession is always complicated by the fact that there are powerful groups and people who don’t want you to share what you know with the wrong people, much less work for them, so don’t be surprised if the Game Master brings these elements in.</p><ul><li><strong>Focus:</strong> Accuracy (any ranged weapon focus), or Dexterity (Stealth), or Intelligence (Security)</li><li><strong>Talent:</strong> Pinpoint Attack or Scouting</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 7</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.7a4689de67b04a34",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e6b20da2866e644e",
+      "name": "Gamer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Mental, Physical, Middle Class</em></p><p>You play online games or otherwise work in virtual environments, or you spend so much time in them it may as well be your job. Regardless of your skills in the real world, in virtual realms you move and act with self-assured smoothness—at least until someone better stands in your way. Some elaborate virtual spaces require a quick wit to understand puzzles and tactical challenges—or benefit from cheat codes, at least.</p><ul><li><strong>Focus:</strong> Accuracy (Virtuality) or Perception (Codefinding)</li><li><strong>Talent:</strong> Hacking or Virtual Combat Style</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.e6b20da2866e644e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "1ad47057729d02e6",
+      "name": "Hacker",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Mental, Lower Class</em></p><p>Most hackers are low level technicians who constantly search for the best scripts and other automation tools to break into systems, automate break-ins into groups of systems. Some are criminals, many help with network security, and most fall somewhere in between, as they may make most of their money legitimately, but use their skills in less than legal side hustles, or simply to steal a few comforts and curios they can’t legally afford.</p><ul><li><strong>Focus:</strong> Intelligence (Computers), Intelligence (Security), or Perception (Codefinding)</li><li><strong>Talent:</strong> Expertise or Hacking</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.1ad47057729d02e6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "fc8edce8e682787f",
+      "name": "Medtech",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Mental, Lower Class</em></p><p>Portable robotics, expert systems, new drugs, and other advancements have given front-line, working-class professionals a wider array of procedures they can perform, from cosmetic surgery to lifesaving that was impossible before. On the other hand, widespread bionic and biological tinkering mean that as a medtech, you need to be familiar with more than standard human biology. You might be a nurse, military medic, or paramedic, or you might just have the gear, talent, and self-taught skill to help people who you feel deserve it— or will pay for treatment off the record.</p><ul><li><strong>Focus:</strong> Intelligence (Cybernetics), Intelligence (Medicine), or Intelligence (Synthlife)</li><li><strong>Talent:</strong> Cybertech or Emergency Care or Synthtech</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.fc8edce8e682787f",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "49587e7d61353035",
+      "name": "Operator",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Middle Class</em></p><p>Your job rides the almost invisibly thin lines between organized crime, military operations, and private security. You apply the latest technologies to physical violence in everything from biohazard-laden mutant jungles to the gray mazes of city streets, using the appropriate tools for the operational zone to meet your objectives.</p><ul><li><strong>Focus:</strong> Accuracy (SMGs), Fighting (Exoskeleton), or Intelligence (Tactics)</li><li><strong>Talent:</strong> One Combat Style or Improvisation</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.49587e7d61353035",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7377601d6deb7a92",
+      "name": "Personality",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Upper Class</em></p><p>You might be famous for being a great musician, actor, VR performer, or for excellence in another artistic field, or you might be attractive, strange, or just aware of the zeitgeist enough to be famous without having any defined talent other than the ability to grab attention. Anything people see you use might experience a jump in sales, and your casual opinions are cause for mass praise or scandal, depending on the situation—and whoever of whatever curates your audience’s media feed.</p><ul><li><strong>Focus:</strong> Communication (Expression), Communication (Performing), or Intelligence (Current Affairs)</li><li><strong>Talent:</strong> Party Animal or Performing</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 8</li></ul>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.7377601d6deb7a92",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ad7e1acea4c3614b",
+  "_key": "!journal!ad7e1acea4c3614b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

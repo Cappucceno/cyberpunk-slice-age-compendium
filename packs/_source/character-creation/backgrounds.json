@@ -1,0 +1,210 @@
+{
+  "name": "Backgrounds",
+  "pages": [
+    {
+      "_id": "53889a49544d20c9",
+      "name": "Gigwork",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lower Class</em></p><p>Maturing in an environment where stable labor had all but ceased to exist, you were exposed to numerous fields as you were supported by various app-driven gigs, short term contracts, and crowdfunded hustles. To survive, you and yours had to not only constantly learn new skills but follow leads to the best opportunities. You may have learned a little about how to manipulate the gig-givers’ data-driven systems as well.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Investigation) or Intelligence (Evaluation)</li><li><strong>Talent:</strong> Contacts or Improvisation</li></ul><h2>Gigwork Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Computers)</td></tr><tr><td>5</td><td>Focus: Dexterity (Crafting)</td></tr><tr><td>6</td><td>Focus: Intelligence (Current Affairs)</td></tr><tr><td>7–8</td><td>+1 Intelligence</td></tr><tr><td>9</td><td>Focus: Perception (Codefinding)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Research)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.53889a49544d20c9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a40382d038e97cc9",
+      "name": "Hazwork",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lower Class</em></p><p>No matter how advanced a society becomes, somebody’s got to take out the trash, and high technology produces the most dangerous garbage. One massive workforce risks their lives to safely dispose of biological, chemical, or radioactive waste. Harvesting or recycling dangerous materials, or materials that are dangerous to acquire, utilizes a similar set of skills. You either did this sort of work yourself at an early age (jobs this unpleasant always have employers willing to bend the rules for someone willing to work) or it was a family trade, and the people who raised you prepared you for the realities of it.</p><ul><li><strong>Ability:</strong> +1 Constitution</li><li><strong>Focus:</strong> Constitution (Tolerance) or Strength (Machining)</li><li><strong>Talent:</strong> Expertise or Knowledge</li></ul><h2>Hazwork Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Perception</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Chemistry or Physics)</td></tr><tr><td>5</td><td>Focus: Dexterity (Initiative)</td></tr><tr><td>6</td><td>Focus: Intelligence (Evaluation)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Fighting (Exoskeleton)</td></tr><tr><td>10–11</td><td>Focus: Perception (Searching)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.a40382d038e97cc9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "812ac63659e6256e",
+      "name": "Kleptarch",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Upper Class</em></p><p>You come from an ambiguously criminal elite, sometimes referred to as the kleptarchy (a neologism from the ancient Greek word for theft and the term oligarch). At one time, your people were considered gangsters or terrorists, but as rising inequality dissolved the barriers between legal and illegal wealth, and beleaguered governments were forced to outsource even the most violent and sensitive aspects of their interests, they attained an almost legally untouchable status. You move in the same social circles as old and industrial money, but your people have never forgotten they nursed on blood to get where they are today.</p><ul><li><strong>Ability:</strong> +1 Willpower</li><li><strong>Focus:</strong> Intelligence (Evaluation) or Strength (Intimidation)</li><li><strong>Talent:</strong> Affluent or Tactical Awareness</li></ul><h2>Kleptarch Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Communication (Leadership)</td></tr><tr><td>5</td><td>Focus: Accuracy (Pistols)</td></tr><tr><td>6</td><td>Focus: Intelligence (Business)</td></tr><tr><td>7–8</td><td>+1 Intelligence</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Streetwise)</td></tr><tr><td>12</td><td>+1 Strength</td></tr></tbody></table>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.812ac63659e6256e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "82872c8378b93cb2",
+      "name": "Neoprim",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Outsider</em></p><p>You grew up in a community that turned its back on a technology-suffused lifestyle for spiritual, artistic, or political reasons. Some neoprim (short for “neo-primitive”) sects ban all technology of a certain type; others include modern medicine, or have members who work in technology driven professions, but reject digitally connected, mechanized private lives. A few may see technology as the path to a simpler lifestyle, modifying the environment and even their bodies to fit some minimalist ethos. Some might appropriate the customs of traditional cultures, to the frequent displeasure of actual members of those cultures.</p><ul><li><strong>Ability:</strong> +1 Constitution</li><li><strong>Focus:</strong> Communication (Expression) or Perception (Survival)</li><li><strong>Talent:</strong> Animal Training or Living on the Fringe</li></ul><h2>Neoprim Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>5</td><td>Focus: Accuracy (Bows, Longarms, or Thrown)</td></tr><tr><td>6</td><td>Focus: Communication (Animal Handling)</td></tr><tr><td>7–8</td><td>+1 Strength</td></tr><tr><td>9</td><td>Focus: Intelligence (Art)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Crafting)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.82872c8378b93cb2",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c67a6997a5af4205",
+      "name": "Nomad",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Outsider</em></p><p>Economic and environmental shocks have made stable housing all but impossible for the subculture you were raised in. Naturally, the entities behind the problem dangle several ways to make a living, from becoming a wandering worker a corporate app assigns to wherever they need labor, to digital jobs where it doesn’t matter where you live, if you can get online. You’ve spent your life moving from one short term housing block to the next or sleeping in a vehicle.</p><ul><li><strong>Ability:</strong> +1 Perception</li><li><strong>Focus:</strong> Communication (Bargaining) or Dexterity (Driving)</li><li><strong>Talent:</strong> Living on the Fringe or Speed Demon</li></ul><h2>Nomad Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Computers)</td></tr><tr><td>5</td><td>Focus: Fighting (Brawling or Light Blades)</td></tr><tr><td>6</td><td>Focus: Intelligence (Navigation)</td></tr><tr><td>7–8</td><td>+1 Dexterity</td></tr><tr><td>9</td><td>Focus: Perception (Empathy)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Tinkering)</td></tr><tr><td>12</td><td>+1 Intelligence</td></tr></tbody></table>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.c67a6997a5af4205",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "f6ffc70079468244",
+      "name": "Online",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Middle Class</em></p><p>Born into a hyper-connected world of data flows, you’ve spent most of your waking life online, not just as a casual user, but as an activist, prankster, crook, gig worker, gamer, code slinger, and more. Everyone’s a digital native these days, but in your case, your online persona is probably who you really are—the false front happens in physical space.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Accuracy (Virtuality) or Intelligence (Cryptography)</li><li><strong>Talent:</strong> Expertise or Hacking</li></ul><h2>Online Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Perception</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Computers)</td></tr><tr><td>5</td><td>Focus: Dexterity (Initiative)</td></tr><tr><td>6</td><td>Focus: Intelligence (Evaluation)</td></tr><tr><td>7–8</td><td>+1 Accuracy</td></tr><tr><td>9</td><td>Focus: Perception (Codefinding)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Research)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.f6ffc70079468244",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "116f424f2840bd98",
+      "name": "Technical",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Middle Class</em></p><p>Whether it was a family business, or you were raised on a salary from a large corporation, you grew up in the monotone glow of diagnostic software, the incandescent sparks of soldering irons, or the antiseptic white of medical technology. You’ve lived around hardware in various states of repair for so long, fixing things may be second nature to you, or you might feel your family put machines ahead of people. Nevertheless, this kind of work met your material needs and passed on some useful skills.</p><ul><li><strong>Ability:</strong> +1 Intelligence</li><li><strong>Focus:</strong> Intelligence (Engineering) or Strength (Machining)</li><li><strong>Talent:</strong> Maker or Theory and Practice</li></ul><h2>Technical Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Computers)</td></tr><tr><td>5</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>6</td><td>Focus: Intelligence (Cybernetics)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (Empathy)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Electronics)</td></tr><tr><td>12</td><td>+1 Strength</td></tr></tbody></table>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.116f424f2840bd98",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "180de7b69663b7a5",
+      "name": "Technocrat",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Upper Class</em></p><p>You were raised with the luxuries and values of technology-driven wealth, from a successful startup or generations-old technology firm. In either case, your upbringing emphasized technological knowledge beside business skills and upper-class values. As an heir or privileged spectator, you picked up a mixture of technical and administrative skills. You might have followed in a parent’s footsteps or prepared yourself to compensate for their failings—you know many of these so-called geniuses may crow about technological literacy, but barely understand how their own products work. Then again, seeing the dirty business behind the shiny, smooth exterior may prompt you to leave it all behind.</p><ul><li><strong>Ability:</strong> +1 Communication</li><li><strong>Focus:</strong> Communication (Leadership) or Intelligence (any knowledge focus)</li><li><strong>Talent:</strong> Expertise or Intrigue</li></ul><h2>Technocrat Benefits</h2><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Intelligence</td></tr><tr><td>3–4</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>5</td><td>Focus: Communication (Deception)</td></tr><tr><td>6</td><td>Focus: Intelligence (Cybernetics)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Perception (Codefinding)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Electronics)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!97951171e5b08147.180de7b69663b7a5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "97951171e5b08147",
+  "_key": "!journal!97951171e5b08147",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

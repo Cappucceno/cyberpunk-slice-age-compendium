@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Nomad",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Nomad benefit",
+  "results": [
+    {
+      "_id": "0d0940e6b0802434",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.0d0940e6b0802434"
+    },
+    {
+      "_id": "d4f42f9e06d2ea00",
+      "type": "text",
+      "name": "Focus: Intelligence (Computers)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.d4f42f9e06d2ea00"
+    },
+    {
+      "_id": "a76a6c0ee773d8cf",
+      "type": "text",
+      "name": "Focus: Fighting (Brawling or Light Blades)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.a76a6c0ee773d8cf"
+    },
+    {
+      "_id": "a19c317cf086f6ff",
+      "type": "text",
+      "name": "Focus: Intelligence (Navigation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.a19c317cf086f6ff"
+    },
+    {
+      "_id": "3c479cbb79ba02a8",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.3c479cbb79ba02a8"
+    },
+    {
+      "_id": "11e2fa71b9835fa0",
+      "type": "text",
+      "name": "Focus: Perception (Empathy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.11e2fa71b9835fa0"
+    },
+    {
+      "_id": "24c7f7a7e49a4324",
+      "type": "text",
+      "name": "Focus: Intelligence (Tinkering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.24c7f7a7e49a4324"
+    },
+    {
+      "_id": "fdb3a7f5f269c4f0",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!36d2897b16997088.fdb3a7f5f269c4f0"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "36d2897b16997088",
+  "_key": "!tables!36d2897b16997088"
+}

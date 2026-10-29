@@ -1,0 +1,143 @@
+{
+  "name": "Cyberpunk Professions: Lower Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Profession (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "321fc4f4262e7bae",
+      "type": "text",
+      "name": "Hacker",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.321fc4f4262e7bae"
+    },
+    {
+      "_id": "962fb33b6461e4a2",
+      "type": "text",
+      "name": "Investigator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.962fb33b6461e4a2"
+    },
+    {
+      "_id": "382ddd0c9f5058c8",
+      "type": "text",
+      "name": "Medtech",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.382ddd0c9f5058c8"
+    },
+    {
+      "_id": "3a9a946147ce8a6a",
+      "type": "text",
+      "name": "Negotiator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.3a9a946147ce8a6a"
+    },
+    {
+      "_id": "bf17ea8d7a1bb49e",
+      "type": "text",
+      "name": "Soldier",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.bf17ea8d7a1bb49e"
+    },
+    {
+      "_id": "4706d04c102efe89",
+      "type": "text",
+      "name": "Technician",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e4b5f6eb199f0d93.4706d04c102efe89"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "e4b5f6eb199f0d93",
+  "_key": "!tables!e4b5f6eb199f0d93"
+}

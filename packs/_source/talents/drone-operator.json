@@ -1,0 +1,39 @@
+{
+  "name": "Drone Operator",
+  "_id": "c9d3c6aa389b445e",
+  "_key": "!items!c9d3c6aa389b445e",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You exercise elite skills without ever leaving your chair.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 and the Dexterity (Remote Operation) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your drone control ability is second to none. If you fail a Dexterity (Remote Operation) test, you may re-roll it, but must accept the second result.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your remote reconnaissance helps your allies. When you can both observe a target (a single individual or discrete area, with limits set by the Game Master) from a remotely piloted vehicle and communicate with allies, you may use an Activate action to give a number of allies equal to your Communication ability a +1 bonus to their next test, including an attack roll, to affect, observe, or analyze your target. (This is above and beyond the benefits of any raw information they get from audiovisual feeds or your descriptions.) This benefit is lost of the target no longer becomes observable, or something about its circumstances significantly changes.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You operate drones and other remotely piloted vehicles with exceptional agility, even in emergency situations. You gain a +1 bonus to Accuracy (Drone Weaponry) tests, and if your drone is hit by an attack, you may make an additional Dexterity (Remote Operation) test to nullify its effects.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

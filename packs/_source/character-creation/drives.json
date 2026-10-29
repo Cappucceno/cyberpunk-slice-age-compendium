@@ -1,0 +1,162 @@
+{
+  "name": "Drives",
+  "pages": [
+    {
+      "_id": "bf6888affad1d9c5",
+      "name": "Addict",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You do not just have a physical or psychological dependency, but a personality fine-tuned to acquire them. You become a devotee of any vice or habit you adopt to the point where it sometimes interferes with the rest of your life. Not everyone with addictions is ruled by them, but you’re the type of person who is, and when you kick one habit, another tends to replace it in short order. Your quality is you’re relentless in pursuit of your desires, but you’re inconsiderate too; putting your habits before the needs of other people is your downfall.</p><ul><li><strong>Talent:</strong> Contacts or Party Animal</li><li><strong>Improvement:</strong> Membership, Relationship, or Reputation</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.bf6888affad1d9c5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7d80e5064b937890",
+      "name": "Avenger",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When slighted, you hit back. In some cases, it’s not about you personally, but an ideology, nation, religion, even fandom you care about—or even one you hate. You may have one long term grudge you’ve devoted much of your life to, or you may bounce from one slight to the next. You’re not necessarily a rude or even unfriendly person. You may have a vengeful attitude toward genuinely terrible people, for instance. Your quality is that you’re articulate because you’ve spent a long time defending your opinions. Unfortunately, pettiness is your downfall, since you might burn someone for a minor, even accidental offense to your values.</p><ul><li><strong>Talent:</strong> Hacking or Overwhelm</li><li><strong>Improvement:</strong> Health, Relationship, or Reputation</li></ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.7d80e5064b937890",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c249a12ac1133c23",
+      "name": "Conspiracist",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>We poisoned the Earth, failed to eradicate everything from hunger to war, and used emerging technology to devise new ways to exploit or annoy each other. If you had a lazier mind, you might decide there isn’t any point to it all. Instead, you try to examine the way things really are, and come to your own conclusions, regardless of popular opinion. Sometimes you uncover secrets, but you’ve also picked up strange opinions and obsessions. You might believe in some fraudulent world-saving technology, or that such things don’t exist because they (whoever they are) don’t want the public to know. Even though your quality is iconoclasm, where you don’t let what other people think worry you, your downfall is gullibility, because you’re easy to lure with strange ideas.</p><ul><li><strong>Talent:</strong> Improvisation or Living on the Fringe</li><li><strong>Improvement:</strong> Relationship, Reputation, or Resources</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.c249a12ac1133c23",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e1d7862ab40db528",
+      "name": "Corporate",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You feel most at ease as a member of an organization where you know exactly what you’re supposed to do, and which rewards you enough to earn your loyalty. Once those elements are in place, you’re devoted to your patron, employer, faith group, or ideology, but your attitude is steadfast—your quality—not overzealous. If someone insults whoever or whatever you put your loyalty in, you won’t get outraged unless it’s your job. You’re meticulous about your duties. However, your downfall is that you’re a follower. You don’t take the initiative easily, and you might nit question orders from on high until it’s too late.</p><ul><li><strong>Talent:</strong> Contacts or Intrigue</li><li><strong>Improvement:</strong> Membership, Reputation, or Resources</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.e1d7862ab40db528",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "d5d05ff2c050251f",
+      "name": "Elite",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You want to be the best in your field—as a hacker, bodyguard, or even in some field other people believe to be trivial. Even if it pays well, the money’s a secondary consideration. Even if it garners you friends or acclaim, perfecting your skills comes before it all. You might even try to stay under the radar, so that you can evolve without the distractions of fame and fortune. However, you need to deal with the world to find challenges to overcome, not to mention keep yourself fed and clothed. Your quality is dedication to your art or craft, but your downfall is arrogance, because you tend to test yourself against challenges that are tougher than you think.</p><ul><li><strong>Talent:</strong> Expertise, Knowledge, or one Combat Style talent</li><li><strong>Improvement:</strong> Health, Reputation, or Resources</li></ul>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.d5d05ff2c050251f",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "dc06a198057e92f6",
+      "name": "Revolutionary",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A new world is coming, but it must be fertilized by the ashes of the old. People hungry for change must create it or ride the storm to liberation. This means that if you have your way, dreadful things are going to happen to a lot of bad people, in one fell swoop—but they might grab a few people with good intentions on the way. You aren’t necessarily indifferent to the risks, but you’re willing to make the sacrifice for the sake of a better world. Some people with this drive have grand, globe-spanning dreams, while others are happy enough to kick over their local community, or a modest target for reform, to better rearrange the broken pieces. Your quality is zeal, because you’re highly motivated to achieve your aims, but sometimes you’re callous to the people you encounter along the way.</p><ul><li><strong>Talent:</strong> Oratory or Tactical Awareness</li><li><strong>Improvement:</strong> Membership, Reputation, or Resources</li></ul>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!0be96d60275bade7.dc06a198057e92f6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "0be96d60275bade7",
+  "_key": "!journal!0be96d60275bade7",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

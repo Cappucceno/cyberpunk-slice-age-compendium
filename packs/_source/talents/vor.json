@@ -1,0 +1,39 @@
+{
+  "name": "Vor",
+  "_id": "14bec86f7143b784",
+  "_key": "!items!14bec86f7143b784",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You’re a gangster. Vor is just one of your names, and comes from вор (Cyrillic), the Russian word for “thief,” used in organized crime. In a stratified yet globalized future you belong to a criminal community with global reach, that sometimes exercises powers once limited to corporations and nation-states.</p><p>In some cyberpunk settings, various modern organized crime groups (the Yakuza is popular in fiction) may attain unprecedented power, but in others, new, multicultural groups overshadow their predecessors.</p><p>Whether you’re a member of a particular syndicate or a free agent, you feed off an underground economy where information is as valuable as physical contraband. Violence is just one part of the game, and you don’t always need physical aggression when blackmail and viral social attacks can be just as effective. In any event, your power comes from your ability to navigate the invisible economy, cultivate valuable connections, and deal with rivals as efficiently or brutally as necessary.</p><p>You’re a rising figure in the criminal underworld.</p>",
+    "shortDesc": "",
+    "requirement": "Willpower 2, the Intelligence (Streetwise) focus, and the Strength (Intimidation) or Communication (Deception) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know your way around criminal circles. If you fail an Intelligence (Streetwise) test, you may re-roll it, but you must accept the second roll’s result. You can also read the body language and subtle customs of fellow gangsters to sense when they’re up to. You may use Intelligence (Streetwise), including your re-roll benefit, instead of Perception tests to detect ambushes and other hidden actions, if the perpetrators are professional criminals.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You’ve become a figure of rumor and fear. You can re-roll failed Strength (Intimidation) or Communication (Deception) tests, but you must accept the second roll’s result. You can also spring from a show of strength or underhanded comment to brutal violence in the blink of an eye, allowing you to use the Lightning Attack stunt as a social stunt connected to successful Strength (Intimidation) or Communication (Deception) tests. This bypasses the Novice ability to detect incipient violence—you’re a better criminal than the sorts of people that benefit detects.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your instincts are peerless, so the world is yours, until someone more ruthless comes along. Whenever you succeed at an attack roll, or a test using Communication (Deception), Intelligence (Streetwise), or Strength (Intimidation), you get a -1 SP discount on the following stunts: Shock and Awe, Hidden Message, Pay Dirt, Bad Form, and Oozing Confidence.</p><p>Sometimes the street respects style over substance. Wave a big gun in someone’s face and they usually won’t care whether it’s jam-prone—or even loaded. On the other hand, you need gear that works. Someday they’ll call your bluff, and all that chrome-plated bluster won’t save you from explosive rounds designed to down cyborgs. But occasionally, style is substance. In a world where networks record every move, algorithms push ads for everything from body armor to print-on-demand snacks, and implants provide posthuman abilities, the technology you use becomes part of your personal identity. As you peruse this chapter, consider these factors. Note, however, that the items don’t include posthuman body alterations, which can be found in Chapter 3.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

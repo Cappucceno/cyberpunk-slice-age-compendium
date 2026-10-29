@@ -1,0 +1,143 @@
+{
+  "name": "Cyberpunk Drive",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 5: Drive (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "f9ff1d142a6c0615",
+      "type": "text",
+      "name": "Addict",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.f9ff1d142a6c0615"
+    },
+    {
+      "_id": "9a4d29b04c24413b",
+      "type": "text",
+      "name": "Avenger",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.9a4d29b04c24413b"
+    },
+    {
+      "_id": "ed5201f2af73158f",
+      "type": "text",
+      "name": "Corporate",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.ed5201f2af73158f"
+    },
+    {
+      "_id": "e0397ef40108a4d3",
+      "type": "text",
+      "name": "Conspiracist",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.e0397ef40108a4d3"
+    },
+    {
+      "_id": "ee30bff32496e62f",
+      "type": "text",
+      "name": "Elite",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.ee30bff32496e62f"
+    },
+    {
+      "_id": "7b09d56e4005d7e5",
+      "type": "text",
+      "name": "Revolutionary",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!68c3060f22a144fb.7b09d56e4005d7e5"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "47f159e396274a6c",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "68c3060f22a144fb",
+  "_key": "!tables!68c3060f22a144fb"
+}

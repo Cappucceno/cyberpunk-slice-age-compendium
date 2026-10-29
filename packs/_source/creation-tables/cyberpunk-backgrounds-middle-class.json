@@ -1,0 +1,83 @@
+{
+  "name": "Cyberpunk Backgrounds: Middle Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Background (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "e6ea4134bd891848",
+      "type": "text",
+      "name": "Academic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!83c9a2cb41ca2abd.e6ea4134bd891848"
+    },
+    {
+      "_id": "8055dee09aa8b1e8",
+      "type": "text",
+      "name": "Online",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!83c9a2cb41ca2abd.8055dee09aa8b1e8"
+    },
+    {
+      "_id": "63df5db7226491f6",
+      "type": "text",
+      "name": "Technical",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!83c9a2cb41ca2abd.63df5db7226491f6"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "83c9a2cb41ca2abd",
+  "_key": "!tables!83c9a2cb41ca2abd"
+}

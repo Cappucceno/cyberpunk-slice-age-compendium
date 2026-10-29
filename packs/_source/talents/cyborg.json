@@ -1,0 +1,39 @@
+{
+  "name": "Cyborg",
+  "_id": "7069cd58385647b3",
+  "_key": "!items!7069cd58385647b3",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Committing to technological transcendence isn’t just about replacing or enhancing a critical number of parts. You must expand your awareness to make use of your new capabilities and be willing to begin a journey you can’t step back from. You’ve taken up that discipline and made those commitments. Your true, irreversible transformation is beginning. If you were human, you become what might as well be a machine with a soul. Artificial characters who take this specialization push past their original specifications.</p><p>Cyborgs work in hazardous environments, battlefields, or as part of special police units. Some even belong to transhuman cults who believe changing themselves with augmentations is a sacred calling.</p><p>You’re enhanced to extremes.</p><h3>Cyborg Benefits</h3><h4>Armored</h4><p>Choose one type of body armor noted as being cyborg-compatible in Chapter 2. You gain this armor as a cybernetic implant that uses no Capacity, permanently gaining both its Armor Rating and Armor Penalty. You can nullify the penalty with the Armor Training talent in this chapter and are treated as if you’re wearing this armor for the sake of that talent. If you equip yourself with worn armor on top of it, you gain the best benefits out of your worn and combined armor, with an additional +1 AR if your worn and implanted armor both provide at least 1 AR against a given form of damage. However, you gain the combined Armor Penalty for both your worn and implanted armor. Implanted armor with an Armor Penalty of -3 or higher is usually visible to others.</p><h4>Disposable Body</h4><p>You have subsystems that keep your mind and its associated biological or synthetic hardware from dying even after your body perishes. This is distinct from the Brain Backup augmentation in Chapter 3 since it doesn’t create a way to extract your mind from its current location. Your consciousness is contained in a 10 lb receptable that’s about the size of (or actually is) a human head. This can be removed from your body with your consciousness inactive, but intact, for future installation into a new body.</p><h4>Optimized (Synthetic Body)</h4><p>This benefit applies to cyborgs with synthetic bodies. It removes one of your body’s Abiotic Vulnerabilities (see Synthetic Bodies under Biological Versus Synthetic) as you have been generally improved as well as augmented. If you switch bodies, you may swap this for a different benefit.</p><h4>Precision</h4><p>You can relegate an augmented action to a programmed routine. Choose one ability + focus whose tests would be improved by your augmentations. When making an augmentation-improved test with this ability + focus pair, you can choose to score 11 + ability + focus bonus instead of rolling the dice, but in exchange for a reliable static result (and one which is on the better side of an average result) you cannot gain SP from this “roll.”</p><h4>Ruggedized</h4><p>Your augmentations are extraordinarily tough. If an effect would destroy or damage one of your augmentations, there’s a straight 50% chance (d6; 1-3 yes, 4-6 no) you can ignore it unless the GM feels overwhelming force was used. For instance, it works if someone hits your augmented arm with small arms fire, but not if it’s grazed by an orbital laser.</p><h4>Secure</h4><p>Your augmentations are highly resistant to hacking. If someone attempts to hack into your augmentations, they must roll the relevant test twice, and take the lower of the two results. If they have an ability to re-roll a test to their benefit, they do not have to roll twice, but lose the re-roll benefit.</p><h4>Surge</h4><p>Subsystems coordinate your augmented actions for extra effort when required. Whenever you could gain stunt points with doubles from an action your augmentations somehow improve, you can decide to forego gaining SP on that occasion to get +1 SP the next time you spend stunt points from any source. You can do this repeatedly to gain up to +3 SP, but you must make use of this bonus during the encounter in which you gain it, or the benefit is lost.</p><h4>Tactical</h4><p>You’ve been optimized for combat. If you gain stunt points from doubles on an attack where the attack or damage would be improved by your augmentations, add +1 SP to the total.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Communication 2, Willpower 1, and 2 more Capacity slots than the campaign’s baseline (see Chapter 3).",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain an additional Capacity slot and one of the benefits listed in the Cyborg Benefits sidebar. You select the benefit.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain a second additional Capacity slot and a second benefit of choice from among listed in the Cyborg Benefits sidebar.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain a third additional Capacity slot and a third benefit of choice from among listed in the Cyborg Benefits sidebar.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

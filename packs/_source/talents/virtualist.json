@@ -1,0 +1,39 @@
+{
+  "name": "Virtualist",
+  "_id": "1ebf57269b3bd9d5",
+  "_key": "!items!1ebf57269b3bd9d5",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Reality is what you make of it, if you can hack in, recode, and command it to your liking. Virtualists like yourself interact with both the surface and depths of cyberspace. You can steal special privileges to change virtual objects to your liking or plunge through them to manipulate the valuable data they might represent. The paths to becoming a Virtualist include computer hacking for fun, intelligence-gathering, or criminal purposes, gaming, game design, or simply spending time fully immersed in cyberspace with other Virtualists.</p><p>Virtualists are suited to campaigns where full-immersion virtual environments are common, and central to how people work and live. Sometimes this takes the form of a complex alternate world millions of people visit for business and pleasure, but it can also be the cyberspace of classic early cyberpunk, where virtual objects represent programs, databases, and other information structures that would be important even if they didn’t have virtual representations. If these forms of cyberspace don’t exist in your game, further degrees in the Computer Hacking talent (and supporting talents like Knowledge and Expertise) are a better fit for would-be dedicated hackers.</p><p>You shape digital worlds the way visual artists paint, or martial artists fight.</p>",
+    "shortDesc": "",
+    "requirement": "You must have 1 degree in the Computer Hacking talent and either the Accuracy (Virtuality) or Perception (Codefinding) focuses.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Things crash at your command. You inflict +1d6 damage in virtual combat (see Chapter 4).</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Using coding instinct and custom software, you constantly manipulate the information structures beneath the surface of virtual worlds. In any virtual environment, you gain +1 SP whenever you earn stunt points from doubles.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You constantly devise exploits for your allies. Whenever you gain stunt points in a virtual environment, you can assign them to allies to spend on action and exploration stunts (though not social stunts) whenever they succeed at their actions, in addition to any SP they might gain from other sources. They must use these SP before the beginning of your next turn.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

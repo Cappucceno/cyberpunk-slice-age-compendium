@@ -1,0 +1,115 @@
+{
+  "id": "cyberpunk-slice-age-compendium",
+  "title": "Modern AGE Cyberpunk Slice Compendium for AGE System",
+  "description": "Focuses, talents, specializations, equipment, augmentations, drones, backgrounds and cyberspace rules from the Modern AGE Cyberpunk Slice, converted for the AGE System (age-system). Work in progress.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14.367",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "age-system",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Green Ronin Publishing (Modern AGE Cyberpunk Slice)",
+      "url": "https://greenroninstore.com"
+    }
+  ],
+  "esmodules": [
+    "scripts/babele.js"
+  ],
+  "languages": [],
+  "packs": [
+    {
+      "name": "focuses",
+      "label": "Cyberpunk Focuses",
+      "path": "packs/focuses",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "talents",
+      "label": "Cyberpunk Talents and Specializations",
+      "path": "packs/talents",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "weapons",
+      "label": "Cyberpunk Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "armor",
+      "label": "Cyberpunk Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "equipment",
+      "label": "Cyberpunk Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "augmentations",
+      "label": "Augmentations",
+      "path": "packs/augmentations",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "vehicles",
+      "label": "Drones and Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "age-system"
+    },
+    {
+      "name": "character-creation",
+      "label": "Cyberpunk Character Creation",
+      "path": "packs/character-creation",
+      "type": "JournalEntry",
+      "system": "age-system"
+    },
+    {
+      "name": "creation-tables",
+      "label": "Cyberpunk Creation Tables",
+      "path": "packs/creation-tables",
+      "type": "RollTable",
+      "system": "age-system"
+    },
+    {
+      "name": "rules-reference",
+      "label": "Cyberpunk Rules Reference",
+      "path": "packs/rules-reference",
+      "type": "JournalEntry",
+      "system": "age-system"
+    },
+    {
+      "name": "gm-guide",
+      "label": "Game Mastering and Cyberspace",
+      "path": "packs/gm-guide",
+      "type": "JournalEntry",
+      "system": "age-system"
+    }
+  ],
+  "url": "https://github.com/Cappucceno/cyberpunk-slice-age-compendium",
+  "license": "LICENSE.txt",
+  "manifest": "https://raw.githubusercontent.com/Cappucceno/cyberpunk-slice-age-compendium/main/module.json",
+  "download": "https://github.com/Cappucceno/cyberpunk-slice-age-compendium/releases/download/v0.1.0/module.zip",
+  "bugs": "https://github.com/Cappucceno/cyberpunk-slice-age-compendium/issues"
+}

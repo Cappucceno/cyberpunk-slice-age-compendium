@@ -1,0 +1,143 @@
+{
+  "name": "Cyberpunk Professions: Upper Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Profession (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "36d65145e63f9afe",
+      "type": "text",
+      "name": "Assassin",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.36d65145e63f9afe"
+    },
+    {
+      "_id": "7b97def2857a1dc5",
+      "type": "text",
+      "name": "Commander",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.7b97def2857a1dc5"
+    },
+    {
+      "_id": "3ea40712fb1ce786",
+      "type": "text",
+      "name": "Executive",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.3ea40712fb1ce786"
+    },
+    {
+      "_id": "9d664383de328db5",
+      "type": "text",
+      "name": "Expert",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.9d664383de328db5"
+    },
+    {
+      "_id": "53b5cad137ee521e",
+      "type": "text",
+      "name": "Personality",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.53b5cad137ee521e"
+    },
+    {
+      "_id": "a4a5eb0ded51a3ca",
+      "type": "text",
+      "name": "Socialite",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c56118a9fab0e3.a4a5eb0ded51a3ca"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "56c56118a9fab0e3",
+  "_key": "!tables!56c56118a9fab0e3"
+}

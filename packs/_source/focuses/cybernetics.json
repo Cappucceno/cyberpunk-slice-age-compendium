@@ -1,0 +1,27 @@
+{
+  "name": "Cybernetics",
+  "_id": "d8d921a644ad3ba7",
+  "_key": "!items!d8d921a644ad3ba7",
+  "folder": "fe698be68ede60dd",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Knowing, making, and repairing augmentations. In some campaigns, this might be further divided into focuses based on the type of augmentation, such as for mechanical bionics or synthetic biological components.</p>",
+    "shortDesc": "",
+    "useAbl": "int",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Wrecker Style",
+  "_id": "af8fb01ce60b9478",
+  "_key": "!items!af8fb01ce60b9478",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Sometimes, meat is better than metal. Metal—or composites—have weaknesses born from imperfect creators, design flaws, and quirks of manufacturing. You know how to exploit those in a fraction of a second, because you’ve trained yourself to reflexively wreck technology, from robots to augmentations.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy 2 and the Intelligence (Tinkering) focus.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>If they bought it, you break it. You inflict +2 damage against machines and individuals with at least 1 Capacity slot’s worth of augmentations.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Artificially augmented combatants inevitably follow certain patterns you know how to exploit. When an opponent uses an augmentation as an attack you, or to augment the accuracy or effects of an attack on you, they suffer a -2 penalty to the attack roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can take machines, and people with machines in them, apart piece by piece. After considering armor and Toughness, for every 5 points of damage you inflict, an augmented individual must make Constitution (Stamina) test with a TN equal to your attack roll, or you wreck 1 Capacity slot’s worth of their augmentations. Wrecked augmentations no longer provide extraordinary benefits and if they also provide basic functioning (such as that of a cybernetic arm or leg) they do so poorly, imposing a -3 penalty to associated tests. If an augmentation takes up more than 1 slot, you must do enough damage to cover all its slots, or it remains functional. Against robots or Non- Player artificial beings whose abilities are listed as qualities or special abilities, the GM should set a damage threshold to trigger tests to avoid losing them—by default, one test per 10 points of damage.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

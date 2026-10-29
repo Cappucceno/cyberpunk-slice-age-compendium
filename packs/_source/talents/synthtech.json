@@ -1,0 +1,39 @@
+{
+  "name": "Synthtech",
+  "_id": "fae6de4df95711b1",
+  "_key": "!items!fae6de4df95711b1",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to maintain and repair artificial life such as cutting-edge robots and cyborgs whose bodies are mostly artificial. As with the Cybertech talent, in some campaigns this should be divided into talents representing various fields within the broad range of synthetic life. In Modern AGE Cyberpunk Slice, this talent focuses on anyone or anything that has the characteristics listed in Synthetic Bodies, described under Step 1: Concept in this chapter.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 2 and the Intelligence (Synthlife) focus.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know how to make quick field repairs to synthetic bodies. Normally, synthetic bodies cannot benefit from the First Aid action, but you can affect repairs that provide the same benefit with an Intelligence (Synthlife) test instead of an Intelligence (Medicine) test. Furthermore, you can decide whether to be thorough, adding +3 to the Health you help your target recover using a major action, or fast, gaining no such bonus, but performing the repair as a minor action. Otherwise, the normal rules for First Aid described on p. 37 of the Modern AGE Basic Rulebook apply.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can perform skillful intensive repairs to synthetic bodies. When you fail an Intelligence (Synthlife) test outside of action time, you may re-roll it, but you must accept the second result. If you spend an hour performing repairs with the proper equipment, your patient regains 10 Health + your total Intelligence (Synthlife) bonus. You may also install, remove, or repair a synthetic body’s augmentations as if you had the Intelligence (Cybernetics) focus.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your familiarity with artificial life is such that you can adjust the somatic abilities and mixed ability modifiers for a synthetic body (see Biological vs. Synthetic under Step 1 in this chapter) by an equal to your total Intelligence (Synthlife) bonus. The sum of these abilities and modifiers remains the same; you can shift the distribution by the bonus, with an upper limit of 6 and lower limit of -3 for somatic abilities, and an individual modifier limit of +3 or penalty of -3 for mixed abilities. Making these modifications requires 1 hour per point of change and the proper equipment.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

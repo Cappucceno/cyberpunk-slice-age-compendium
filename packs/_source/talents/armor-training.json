@@ -1,0 +1,39 @@
+{
+  "name": "Armor Training",
+  "_id": "ca2bcb0efec66c21",
+  "_key": "!items!ca2bcb0efec66c21",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Advanced materials and onboard technologies to manage battlefield data, send biometrics, and even provide first aid, have revived the use of armor. You’ve trained to manage its bulk.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting or Accuracy 1",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You ignore Armor Penalties for worn armor up to -2, but higher penalties have full effect.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You ignore Armor Penalties for worn armor up to -4 but again, higher penalties have full effect.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You ignore Armor Penalties for worn armor up to -6 but just as for the previous degrees, higher penalties have full effect.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

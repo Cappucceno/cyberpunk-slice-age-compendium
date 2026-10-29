@@ -1,0 +1,27 @@
+{
+  "name": "Remote Operation",
+  "_id": "76caec024872544c",
+  "_key": "!items!76caec024872544c",
+  "folder": "456df91c36b041b6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Controlling a vehicle or device through a remote station or control device, reacting to the environment as if physically present.</p>",
+    "shortDesc": "",
+    "useAbl": "dex",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

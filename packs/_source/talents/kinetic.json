@@ -1,0 +1,39 @@
+{
+  "name": "Kinetic",
+  "_id": "20e96e257e4e8c08",
+  "_key": "!items!20e96e257e4e8c08",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You used to be a soldier or cop—or maybe you learned the arts of violence in a less formal role. Although that part of your life ended, the demand for your skills never did. You apply them in the shadows that crawl over streets and boardrooms alike. This environment tests your situational awareness and personal combat in new ways, but they need to be rock solid if you plan to serve your masters as a bodyguard, extractor, and perhaps, as an assassin.</p><p>“Kinetic”—from old military slang for violent—is a nickname for your profession. Sometimes people use terms like operator, red pole, or samurai, and in fiction, at least, it comes with a stereotype of unswerving loyalty to a corporate or criminal master. You’re technically a type of mercenary, however, and you can approach your job however you like.</p><p>You’re a skilled urban warrior.</p>",
+    "shortDesc": "",
+    "requirement": "You must have three degrees in at least two different fighting style talents.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You need to be ready for action in any situation. You gain +1 to Initiative tests, and if you make a test to detect an ambush or other hidden threat to your physical safety, such as a booby trap or drone, you (or the GM rolling on your behalf) can re-roll a failure, but the second result is final.</p><p>Each rank in the Cyborg specialization’s talent entitles you to one of the following additional benefits. Some particularly potent benefits have attached drawbacks, noted in the text. The Game Master can add to this list. If the GM decides augmentations are swappable, you may change benefits whenever you change your augmentations.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your expertise at combat in unconventional situations makes it hard for people to overcome you through traditional tactics. You reduce opponents’ attack roll bonuses for outnumbering you by 2 and reduce your penalties for acting in adverse environments by 2 as well. See the Attack Roll MODIFIERS table on p. 128 of the Modern AGE Basic Rulebook for the base modifiers.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You’ve trained to deal with complex threats operating at multiple ranges. You may make a Fighting or Accuracy-based attack as a minor action, but you can’t gain stunt points from doubles or spend SP to enhance this attack, and if you used your major action to attack, your minor action must use a different attack. For example, you could shoot someone with your major action, then attack an enemy at close range with a Fighting (Brawling) attack, but you couldn’t shoot or use an unarmed strike against someone for both actions.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

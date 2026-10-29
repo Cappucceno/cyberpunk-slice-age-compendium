@@ -1,0 +1,143 @@
+{
+  "name": "Cyberpunk Professions: Middle Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Profession (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "bea93fd0381012f5",
+      "type": "text",
+      "name": "Gamer",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.bea93fd0381012f5"
+    },
+    {
+      "_id": "3c249840725645df",
+      "type": "text",
+      "name": "Operator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.3c249840725645df"
+    },
+    {
+      "_id": "eda684b9d4ce5cc8",
+      "type": "text",
+      "name": "Pilot",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.eda684b9d4ce5cc8"
+    },
+    {
+      "_id": "037da7c760a8be7c",
+      "type": "text",
+      "name": "Professional",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.037da7c760a8be7c"
+    },
+    {
+      "_id": "3f2b2434d919bab9",
+      "type": "text",
+      "name": "Scholar",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.3f2b2434d919bab9"
+    },
+    {
+      "_id": "759c1446c3ed721d",
+      "type": "text",
+      "name": "Security",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!669e72611be6cd43.759c1446c3ed721d"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "669e72611be6cd43",
+  "_key": "!tables!669e72611be6cd43"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Virtuality",
+  "_id": "75ebb64f1632d74a",
+  "_key": "!items!75ebb64f1632d74a",
+  "folder": "89800b98d0202574",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Manipulating virtual objects, playing action-oriented games, and engaging in combat in virtual environments.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Exoskeleton",
+  "_id": "f214b974d8a950dd",
+  "_key": "!items!f214b974d8a950dd",
+  "folder": "1711e156e51752db",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Using an exoskeleton in melee combat.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

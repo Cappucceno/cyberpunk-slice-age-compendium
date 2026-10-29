@@ -1,0 +1,83 @@
+{
+  "name": "Cyberpunk Backgrounds: Upper Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Background (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "f01a1691821662c9",
+      "type": "text",
+      "name": "Corporate",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6b1743497051840b.f01a1691821662c9"
+    },
+    {
+      "_id": "7b1837bf5a218d05",
+      "type": "text",
+      "name": "Kleptarch",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6b1743497051840b.7b1837bf5a218d05"
+    },
+    {
+      "_id": "fc8cded844d3b92d",
+      "type": "text",
+      "name": "Technocrat",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6b1743497051840b.fc8cded844d3b92d"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "6b1743497051840b",
+  "_key": "!tables!6b1743497051840b"
+}

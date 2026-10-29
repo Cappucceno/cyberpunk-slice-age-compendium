@@ -1,0 +1,83 @@
+{
+  "name": "Cyberpunk Backgrounds: Outsider",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Background (Cyberpunk Slice table)",
+  "results": [
+    {
+      "_id": "71f0f07e1cfcf704",
+      "type": "text",
+      "name": "Outcast",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3e5c9852cab7ac7d.71f0f07e1cfcf704"
+    },
+    {
+      "_id": "70b12c61d67686b6",
+      "type": "text",
+      "name": "Neoprim",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3e5c9852cab7ac7d.70b12c61d67686b6"
+    },
+    {
+      "_id": "646d15658b4089a3",
+      "type": "text",
+      "name": "Nomad",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3e5c9852cab7ac7d.646d15658b4089a3"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "3e5c9852cab7ac7d",
+  "_key": "!tables!3e5c9852cab7ac7d"
+}

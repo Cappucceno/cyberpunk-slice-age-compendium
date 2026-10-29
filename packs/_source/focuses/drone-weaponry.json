@@ -1,0 +1,27 @@
+{
+  "name": "Drone Weaponry",
+  "_id": "6636d24804bb5d92",
+  "_key": "!items!6636d24804bb5d92",
+  "folder": "89800b98d0202574",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Using drone-based weapons, including the body or chassis of the drone itself, in combat.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}
