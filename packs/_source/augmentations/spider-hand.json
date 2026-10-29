@@ -1,0 +1,28 @@
+{
+  "name": "Spider Hand",
+  "_id": "efafb4940a807688",
+  "_key": "!items!efafb4940a807688",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>One of your hands is an artificial prosthetic capable of detaching and functioning as a remote-controlled drone. It can operate on its own for up to an hour on internal battery power and has an effective Speed of 10 and Strength of 0, able to fit through any space able to accommodate its size. The spider hand can carry out pre-programmed instructions or operate under remote control. If you have the Commlink augmentation, you can use it to control the drone directly. If certain of your augmentations are a part of your hand, such as a Weapon Implant, they may go with the spider hand and remain functional.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

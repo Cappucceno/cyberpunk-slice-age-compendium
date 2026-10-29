@@ -1,0 +1,28 @@
+{
+  "name": "Adrenal Enhancement",
+  "_id": "c19496b401700a6c",
+  "_key": "!items!c19496b401700a6c",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 2 Slots</p><p>Your enhanced adrenaline surges in times of stress. You can perform the Adrenaline Rush stunt for –1 SP cost and can perform a special Adrenaline Surge stunt that grants you a lifting and pushing force multiplier on your Strength (Might) tests: x2 for 2 SP, x5 for 4 SP, and x10 for 6 SP.</p>",
+    "shortDesc": "2 Slots",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

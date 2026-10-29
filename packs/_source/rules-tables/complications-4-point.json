@@ -1,0 +1,83 @@
+{
+  "name": "Complications: 4-point",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "fa8fc07ccb6983c2",
+      "type": "text",
+      "name": "The character cannot do anything other than free actions for one turn.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e2cf2ec516aadaa4.fa8fc07ccb6983c2"
+    },
+    {
+      "_id": "6a01bab1c0419ac8",
+      "type": "text",
+      "name": "If the character has less than half their normal Health, they must succeed on a TN 14 Constitution (Stamina) test or immediately fall unconscious.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e2cf2ec516aadaa4.6a01bab1c0419ac8"
+    },
+    {
+      "_id": "d74895c7d1872733",
+      "type": "text",
+      "name": "The character drops to the end of the initiative order during an action scene.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!e2cf2ec516aadaa4.d74895c7d1872733"
+    }
+  ],
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "e2cf2ec516aadaa4",
+  "_key": "!tables!e2cf2ec516aadaa4"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Focus Program",
+  "_id": "2b2c6e14d790792d",
+  "_key": "!items!2b2c6e14d790792d",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You can load and run software simulations of different ability focuses, giving you the benefit of having that focus while the program is running. Choose five different focuses loaded into your onboard memory. You can have one focus program running at a time per enhancement invested in this implant, switching between them with an Activate action.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

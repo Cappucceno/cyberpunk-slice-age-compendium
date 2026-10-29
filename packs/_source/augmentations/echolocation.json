@@ -1,0 +1,28 @@
+{
+  "name": "Echolocation",
+  "_id": "b344ba342b5b82df",
+  "_key": "!items!b344ba342b5b82df",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You can emit a range-finding “ping” and receive the echo or reflection of it off solid surfaces to build a sensory picture of your surroundings. You can sense objects and surfaces within 10 yards of you, although you cannot distinguish details, including colors or other visual information like images or writing on surfaces. The “ping” you emit is also detectable with the right sensors, such as hypersonic hearing or the ability to see an infrared rangefinder, for example.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

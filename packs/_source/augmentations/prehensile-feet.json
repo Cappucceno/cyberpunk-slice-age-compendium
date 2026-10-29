@@ -1,0 +1,28 @@
+{
+  "name": "Prehensile Feet",
+  "_id": "2f70aaf0d47f5c66",
+  "_key": "!items!2f70aaf0d47f5c66",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your feet and toes are modified so you can use them much like hands, including the addition of an opposable big toe “thumb,” like some other primates. You can wear special glove-like “shoes” in order to access this ability (or also have the Barefoot Treads augmentation). You can only use both feet as hands if you are hanging suspended from something or in free-fall, making this a popular modification for “spacers” or “belters” who regularly live and work in microgravity. Otherwise, you need at least one foot to stand on or you fall prone. This modification also affects your hip joints, allowing you to move your legs a full 180-degree arc up and down in front of you. The Game Master decides if a particular modifier should apply to an action taken using your feet, but generally they should be as effective as your hands. This does not increase the number of actions you can take during your turn in a round.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

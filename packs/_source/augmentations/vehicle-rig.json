@@ -1,0 +1,28 @@
+{
+  "name": "Vehicle Rig",
+  "_id": "0bfe5a4d12cfae48",
+  "_key": "!items!0bfe5a4d12cfae48",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1+ Slot</p><p>You can plug your central nervous system directly into the control interface for a vehicle, including things like remote-controlled drones, driving or piloting it more efficiently than having to use manual controls. For each slot allocated to your vehicle rig, choose one of the following enhancements:</p><ul><li>You gain the benefits of the Dexterity (Driving) or (Piloting) focus with the vehicle, if you don’t already have it. If you do, you gain an additional +1 bonus to tests using those focuses.</li><li>If you fail a Dexterity (Driving) or (Piloting) test, you can re-roll the test, but must use the second result.</li><li>When you generate stunt points while plugged into a vehicle, you gain +1 SP.</li></ul>",
+    "shortDesc": "1+ Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

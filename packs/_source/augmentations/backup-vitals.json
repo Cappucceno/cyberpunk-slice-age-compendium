@@ -1,0 +1,28 @@
+{
+  "name": "Backup Vitals",
+  "_id": "35a4bb0fa0463d77",
+  "_key": "!items!35a4bb0fa0463d77",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your vital parts are reinforced with multiple redundancies and less likely to fail due to trauma. What happens to you when your Health is reduced to 0 is improved by one mode greater that of the campaign. So, in a Gritty mode game, you treat Health 0 using the Pulpy mode rules. In a Cinematic mode cyberpunk game, this augmentation means you fall unconscious when you fail your Constitution (Stamina) test, but automatically stabilize. You only die if you suffer some further damage after that point. Synthetic bodies with this augmentation and biological components do not perish when reduced to 0 Health: They can effectively go into a kind of preserved state indefinitely until reactivated. At the Game Master’s option, a multi-slot version of this augmentation can improve your reaction by multiple modes, such as a 3-slot version that can give a character in a Gritty mode game the benefits of the augmentation in a Cinematic mode game.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

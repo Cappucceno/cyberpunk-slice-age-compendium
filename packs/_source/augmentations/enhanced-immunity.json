@@ -1,0 +1,28 @@
+{
+  "name": "Enhanced Immunity",
+  "_id": "70b216cc3fe4a0a4",
+  "_key": "!items!70b216cc3fe4a0a4",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your enhanced white blood-cells reduce the effect of any disease or pathogen by 1 die. If this reduces the damage dice to 0, the disease simply doesn’t affect you. Alternately, enhanced immunity provides complete immunity to a single known disease, regardless of its effects. More enhanced immunity requires additional enhancements and reduces disease damage by 1 die (or provides immunity to one additional specific disease) per additional enhancement, up to 5.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

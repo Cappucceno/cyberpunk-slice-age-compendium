@@ -1,0 +1,28 @@
+{
+  "name": "Frog Tongue",
+  "_id": "5218d018a7bfa08b",
+  "_key": "!items!5218d018a7bfa08b",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your augmented tongue can flick out up to yard (like that of a frog) and has a sticky tip capable of “grabbing” small objects and pulling them to your mouth (or allowing you to catch them in your hand). You can perform the Disarm stunt with your tongue and, if so, catch the weapon or other object rather than knocking it away. A frog tongue implant is sometime further enhanced with a Venom Glad or Weapon Implant (following) for additional slots.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

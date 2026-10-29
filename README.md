@@ -8,13 +8,20 @@ It is a companion to the [Modern AGE compendium](https://github.com/Cappucceno/m
 
 | Compendium | Content |
 |---|---|
-| Cyberpunk Focuses | `focus` items |
-| Cyberpunk Talents and Specializations | `talent` items (Novice/Expert/Master), including the Cyborg, Kinetic, Virtualist and Vor specializations |
-| Cyberpunk Weapons / Armor | 4 weapons with damage of their own (unarmed upgrades, baton, whip, shuriken); armor with Impact/Ballistic ratings and penalties |
-| Cyberpunk Equipment | ammunition, firearm accessories, grenades, medical equipment, drugs, sample IT assets and op gear (Resources TN, description) |
-| Drones and Vehicles | `vehicle` actors: drones (Health, armor, velocity) and vehicles/exoskeletons (handling, capacity, velocity, ram, hull) |
-| Cyberpunk Character Creation | journals: new backgrounds, professions and drives |
-| Cyberpunk Creation Tables | roll tables for backgrounds, benefits, professions and drives |
+| Cyberpunk Focuses | 9 `focus` items |
+| Cyberpunk Talents and Specializations | 7 talents and the Cyborg, Kinetic, Virtualist and Vor specializations (`talent`, Novice/Expert/Master) |
+| Cyberpunk Weapons / Armor | 5 weapons with their own damage (unarmed upgrades, baton, mono-whip, shuriken); 6 armors with Impact/Ballistic ratings and penalties |
+| Cyberpunk Equipment | 38 items: special ammunition, firearm accessories, grenades and blade upgrades, medical equipment, drugs, sample IT assets, op gear (with Resources TN) |
+| Augmentations | 44 augmentations from the catalog, with Capacity slots in the description |
+| Drones and Vehicles | 16 `vehicle` actors: drones (Health, armor, velocity) and vehicles/exoskeletons (handling, capacity, velocity, ram, hull) |
+| Cyberpunk Character Creation | journals: Chapter 1 text, 8 new backgrounds (with benefit tables), 6 professions, 6 drives |
+| Cyberpunk Creation Tables | 16 roll tables: backgrounds per class, profession and drive tables, benefit tables |
+| Cyberpunk Rules Tables | 8 roll tables: Hit Locations (1d6) and the Complications lists (general and 1- to 6-point) |
+| Cyberpunk Rules Reference | journals: Chapter 2 (equipment text), Chapter 3 (augmentation rules) and clean Rules Tables (automation classes, IT firewall, hit locations) |
+| Game Mastering and Cyberspace | journal: Chapter 4 (the genre, cyberspace, hacking) |
+
+Some text of the book is cut in pieces by sidebars in the PDF layout. The Cybercombat Style, Kinetic Talent and Precision entries were reassembled
+by hand in the converter (`fix_split_talents`), which fails loudly if the layout changes.
 
 ## Building
 Requires `poppler-utils` (`pdftotext`, `pdftohtml`), Python 3 and Node. The package `wamerican` (`/usr/share/dict/words`) is optional and improves the

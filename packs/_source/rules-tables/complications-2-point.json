@@ -1,0 +1,143 @@
+{
+  "name": "Complications: 2-point",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "e6483bed7916c78d",
+      "type": "text",
+      "name": "The character falls prone where they are",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.e6483bed7916c78d"
+    },
+    {
+      "_id": "c54ef27b1dabe844",
+      "type": "text",
+      "name": "A stun damage attack on the character does wound damage instead",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.c54ef27b1dabe844"
+    },
+    {
+      "_id": "900506813a70da8c",
+      "type": "text",
+      "name": "An attack on the character ignores half of their Armor Rating",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.900506813a70da8c"
+    },
+    {
+      "_id": "e3e43d997b10efb2",
+      "type": "text",
+      "name": "An attack on the character does an additional 1d6 damage",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.e3e43d997b10efb2"
+    },
+    {
+      "_id": "0daa88ce9d19882c",
+      "type": "text",
+      "name": "The character drops whatever they are holding, which lands 1d6 yards away in a direction chosen by the GM",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.0daa88ce9d19882c"
+    },
+    {
+      "_id": "ec20eed8eb1476f6",
+      "type": "text",
+      "name": "The character’s Speed is reduced by 4 for the remainder of the encounter; this complication can be applied multiple times.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!a7bfa596959dcf33.ec20eed8eb1476f6"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "a7bfa596959dcf33",
+  "_key": "!tables!a7bfa596959dcf33"
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Hit Locations",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 2: lowest die of the attack roll; the number after the slash is the penalty to target it on purpose",
+  "results": [
+    {
+      "_id": "f2427ae74a4b480c",
+      "type": "text",
+      "name": "Torso/–2",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7eee7dfc2ade304a.f2427ae74a4b480c"
+    },
+    {
+      "_id": "ee8ac620b024bc85",
+      "type": "text",
+      "name": "Dominant Arm/–3",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7eee7dfc2ade304a.ee8ac620b024bc85"
+    },
+    {
+      "_id": "d7f9b4f8a1b73b7b",
+      "type": "text",
+      "name": "Non-Dominant Arm/–3",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7eee7dfc2ade304a.d7f9b4f8a1b73b7b"
+    },
+    {
+      "_id": "85be234aa9670efc",
+      "type": "text",
+      "name": "Leg/–4",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7eee7dfc2ade304a.85be234aa9670efc"
+    },
+    {
+      "_id": "720959c8fa73ec9f",
+      "type": "text",
+      "name": "Head/–5",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7eee7dfc2ade304a.720959c8fa73ec9f"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "b867d4d290bbcc99",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "7eee7dfc2ade304a",
+  "_key": "!tables!7eee7dfc2ade304a"
+}

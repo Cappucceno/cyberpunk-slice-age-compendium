@@ -1,0 +1,123 @@
+{
+  "name": "Complications: General",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "aff298c4c2453e16",
+      "type": "text",
+      "name": "–1 penalty to the character’s next attack roll or ability test per SP spent.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5ef9455ea82dcbac.aff298c4c2453e16"
+    },
+    {
+      "_id": "c674fca24ae7962f",
+      "type": "text",
+      "name": "–2 penalty to the character’s next damage roll per SP spent.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5ef9455ea82dcbac.c674fca24ae7962f"
+    },
+    {
+      "_id": "55d8e9838aee6668",
+      "type": "text",
+      "name": "–1 penalty to the character’s Defense for one turn per SP spent.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5ef9455ea82dcbac.55d8e9838aee6668"
+    },
+    {
+      "_id": "39b54d4fcac817b1",
+      "type": "text",
+      "name": "An opponent gains bonus SP equal to the SP spent, which they can use normally for a stunt against the character.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5ef9455ea82dcbac.39b54d4fcac817b1"
+    },
+    {
+      "_id": "84a2bdee2f4b5c1d",
+      "type": "text",
+      "name": "The character is involuntarily moved 2 yards per SP spent.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5ef9455ea82dcbac.84a2bdee2f4b5c1d"
+    }
+  ],
+  "formula": "1d5",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "5ef9455ea82dcbac",
+  "_key": "!tables!5ef9455ea82dcbac"
+}

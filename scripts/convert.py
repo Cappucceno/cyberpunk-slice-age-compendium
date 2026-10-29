@@ -16,6 +16,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from blocks import blocks, entries, paras, text  # noqa: E402
+import prose  # noqa: E402
+from blocks import book  # noqa: E402
+from prose import render  # noqa: E402
 from common import (ABILITIES, Pack, crop_lines, esc, journal_doc, li, make_id, modifier, num, p, parse_ranges, pdftotext,  # noqa: E402
                     table_doc, table_html)
 
@@ -335,6 +338,7 @@ DRIVE_NAMES = ["Addict", "Avenger", "Corporate", "Conspiracist", "Elite", "Revol
 
 def build_creation(pdf):
     pack = Pack("character-creation", "JournalEntry")
+    journal_doc(pack, "Chapter 1: Cyberpunk Characters", chapter_pages(pdf, 5, 19, skip=chapter1_skip(pdf)))
     bgs = sorted(parse_backgrounds(pdf), key=lambda x: x["name"])
     journal_doc(pack, "Backgrounds", [
         (b["name"], f"<p><em>{b['cls']}</em></p>" + "".join(p(x) for x in b["desc"]) + "<ul>" + li("Ability", b["fields"].get("Ability", ""))
@@ -600,11 +604,137 @@ def build_vehicles(pdf):
     return pack
 
 
+# --------------------------------------------------------------------------- augmentations (Chapter 3, p45-50)
+
+AUG_TITLE = re.compile(r"^(?P<name>.+?) (?P<slots>Cosmetic \(0 Slots\)|\d(?: or \d)?\+? Slots?)$")
+
+
+def build_augmentations(pdf):
+    pack = Pack("augmentations")
+    for title, _, body in entries(blocks(pdf, 45, 50), 3):
+        if not title:
+            continue
+        m = AUG_TITLE.match(title)
+        if not m:
+            print(f"warning: unexpected augmentation heading {title!r}", file=sys.stderr)
+            continue
+        name, slots = m.group("name"), m.group("slots")
+        body = body[: next((i for i, b in enumerate(body) if b[0] == "h"), len(body))]
+        pack.item(name, "equipment", {
+            "longDesc": f"<p><strong>Capacity:</strong> {esc(slots)}</p>" + render(body), "shortDesc": slots, "weight": 0, "cost": 0, "quantity": 1,
+            "equiped": False, "modifiers": {},
+        }, "briefcase.svg", folder="Cosmetic Alterations" if slots.startswith("Cosmetic") else "Augmentations")
+    return pack
+
+
+# --------------------------------------------------------------------------- prose chapters (journals)
+
+def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=()):
+    pages, words = book(pdf)
+    return prose.chapter_sections(pages, first, last, words, skip=set(skip), skip_pages=skip_pages, stop_at=stop_at)
+
+
+def chapter1_skip(pdf):
+    """Headings of Chapter 1 whose text is already in items or journals of this module."""
+    skip = {"Cyberpunk Focuses", "Cyborg", "Kinetic", "Virtualist", "Cyberpunk Specializations"}
+    skip |= {f"{b['name']} {k}" for b in parse_backgrounds(pdf) for k in ("Lower", "Middle", "Upper", "Outsider") if CLASSES[k] == b["cls"]}
+    skip |= {b[2] for b in blocks(pdf, 8, 14) if b[0] == "h" and b[1] == 3 and (b[2].startswith("Cyberpunk") or b[2].startswith("Upper Class"))}
+    skip |= {b[2] for b in blocks(pdf, 11, 13) if b[0] == "h" and b[1] == 3 and PROF_HEAD.match(b[2])}
+    skip |= set(DRIVE_NAMES)
+    skip |= {t for t, _, body in entries(blocks(pdf, 14, 20), 3) if t and any(b[0] == "p" and REQ.match(text(b[1])) for b in body)}
+    return skip
+
+
+
+# --------------------------------------------------------------------------- rules tables
+
+def table_rows(pdf, page, first_cells):
+    """Cells of the 'table' block of `page` whose first row starts with `first_cells` (plain text)."""
+    for b in blocks(pdf, page, page):
+        if b[0] == "table":
+            rows = [[text(c) for c in r] for r in b[1]]
+            if rows and [c.lower() for c in rows[0][: len(first_cells)]] == [c.lower() for c in first_cells]:
+                return rows
+    return []
+
+
+def hit_locations(pdf):
+    rows = []
+    for line in crop_lines(pdf, 27, "right"):
+        m = re.match(r"^\s*(\d(?:–\d)?)\s{2,}([A-Za-z\- ]+/–\d)\s*$", line)
+        if m:
+            rows.append(m.groups())
+    return rows
+
+
+def complications(pdf):
+    """{title: [text]} for the general and the 1- to 6-point complication lists (pages 39-40)."""
+    out, cur = {}, None
+    for b in blocks(pdf, 39, 40):
+        if b[0] == "h":
+            cur = b[2] if b[2] == "General Complications" or re.match(r"^\d-point Complications$", b[2]) else None
+            if cur:
+                out[cur] = []
+        elif b[0] == "li" and cur:
+            out[cur].append(text(b[1]))
+    return out
+
+
+def build_rules_tables(pdf):
+    pack = Pack("rules-tables", "RollTable")
+    locs = hit_locations(pdf)
+    table_doc(pack, "Hit Locations", "1d6", "Chapter 2: lowest die of the attack roll; the number after the slash is the penalty to target it on purpose",
+              [(int(r[0][0]), int(r[0][-1]), r[1]) for r in locs], "Combat")
+    for title, items in complications(pdf).items():
+        table_doc(pack, f"Complications: {title.replace(' Complications', '')}", f"1d{len(items)}",
+                  "Chapter 3: sample Complications for characters over their augmentation Capacity", [(i, i, t) for i, t in enumerate(items, 1)], "Complications")
+    return pack
+
+
+def rules_tables_pages(pdf):
+    auto = table_rows(pdf, 23, ["automation"])
+    fire = table_rows(pdf, 35, ["firewall"])
+    pages = []
+    if auto:
+        pages.append(("Automation Classes", table_html(["Automation Class", "Test Bonus", "Aid Bonus", "Routine Action"], [r for r in auto[2:] if len(r) >= 4])))
+    if fire:
+        rows = [r for r in blocks_table_after(pdf, 35, "firewall") if r]
+        pages.append(("IT Firewall", table_html(["Firewall", "Resources TN", "Structure", "Integrity/Crypto"], rows)))
+    locs = hit_locations(pdf)
+    pages.append(("Hit Locations", table_html(["Lowest Attack Die", "Location/Penalty"], locs)))
+    return pages
+
+
+def blocks_table_after(pdf, page, first):
+    for b in blocks(pdf, page, page):
+        if b[0] == "table":
+            rows = [[text(c) for c in r] for r in b[1]]
+            if rows and rows[0][0].lower() == "weak":
+                return rows
+    return []
+
+
 # --------------------------------------------------------------------------- main
+
+def build_rules_reference(pdf):
+    pack = Pack("rules-reference", "JournalEntry")
+    journal_doc(pack, "Chapter 2: Cyberpunk Equipment", chapter_pages(pdf, 20, 37))
+    journal_doc(pack, "Chapter 3: Augmentations", chapter_pages(pdf, 38, 45, stop_at=("The Augmentation Catalog",)))
+    journal_doc(pack, "Rules Tables", rules_tables_pages(pdf))
+    return pack
+
+
+def build_gm_guide(pdf):
+    pack = Pack("gm-guide", "JournalEntry")
+    journal_doc(pack, "Chapter 4: Game Mastering and Cyberspace", chapter_pages(pdf, 51, 59))
+    return pack
+
 
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "character-creation": build_creation,
             "creation-tables": build_creation_tables, "equipment": build_equipment, "weapons": build_weapons, "armor": build_armor,
-            "vehicles": build_vehicles}
+            "vehicles": build_vehicles, "augmentations": build_augmentations,
+            "rules-reference": build_rules_reference, "gm-guide": build_gm_guide,
+            "rules-tables": build_rules_tables}
 
 
 def main():

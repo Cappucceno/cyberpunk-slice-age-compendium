@@ -1,0 +1,28 @@
+{
+  "name": "Venom Gland",
+  "_id": "4677512507e11225",
+  "_key": "!items!4677512507e11225",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>A gland in your body produces and stores a toxin one of three ways. Choose one of the following when you acquire this enhancement:</p><ul><li>The toxin can be delivered by a weapon on a successful attack that penetrates the target’s Toughness (see <strong>WEAPON IMPLANT</strong>, following).</li><li>You can spit the toxin up to 2 yards, hitting the target with a successful Accuracy test against the target’s Defense.</li><li>You can breathe out a small cloud of the toxin, affecting a target directly adjacent to you (no more than a yard away) unless they succeed on a Dexterity test with a TN of 10 + your Accuracy.</li></ul><p>You can acquire different toxin delivery systems as separate enhancements, each requiring its own enhancement. Whatever the delivery system, the toxin inflicts 2d6 penetrating damage to the target if it affects them. You are immune to the toxin of your own venom gland. Deadlier toxins may be available. If so, it costs an additional slot per +1d6 penetrating damage, and the target can roll a Constitution (Tolerance) test to take half damage from your enhanced toxin. The TN is 11 + the number of additional slots.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

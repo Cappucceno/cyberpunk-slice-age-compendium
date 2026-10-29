@@ -1,0 +1,28 @@
+{
+  "name": "Plastic Features",
+  "_id": "6bfffa05dd922b7b",
+  "_key": "!items!6bfffa05dd922b7b",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>Your facial features are replaced or augmented with memory materials you can sculpt and reshape, essentially granting you the innate benefits of having a disguise kit for Communication (Disguise) tests. It takes some time, a minute or more, to do the necessary reshaping for a disguise, although your features can “snap back” to a default state with just an Activate action, the same as “ripping off” a disguise. In some cases, the GM may grant you a bonus on your Communication (Disguise) tests, but otherwise this augmentation just eliminates the need for makeup and prosthetics to change your appearance.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

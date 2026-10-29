@@ -1,0 +1,83 @@
+{
+  "name": "Complications: 5-point",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "69588743f876aa34",
+      "type": "text",
+      "name": "A successful attack inflicts an additional 2d6 damage to the character.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6abb2933b0ee4c64.69588743f876aa34"
+    },
+    {
+      "_id": "1947c246b4dc4e3b",
+      "type": "text",
+      "name": "A successful attack completely ignores the character’s Armor Rating and Toughness.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6abb2933b0ee4c64.1947c246b4dc4e3b"
+    },
+    {
+      "_id": "74c5e476c96bb20b",
+      "type": "text",
+      "name": "The character must succeed on a TN 15 Constitution (Stamina) test or lose the use of an augmentation chosen by the GM until it can be repaired or replaced.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6abb2933b0ee4c64.74c5e476c96bb20b"
+    }
+  ],
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "6abb2933b0ee4c64",
+  "_key": "!tables!6abb2933b0ee4c64"
+}

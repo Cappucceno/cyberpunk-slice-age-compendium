@@ -1,0 +1,28 @@
+{
+  "name": "Dermal Reinforcement",
+  "_id": "ea42d928a0fb5430",
+  "_key": "!items!ea42d928a0fb5430",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You gain +1 Toughness due to reinforcement of your dermal layer using carbon fiber, ballistic memory materials and the like. Each additional enhancement grants another +1 Toughness.</p><p>For an additional enhancement slot, the Toughness provided by your Dermal Reinforcement works one mode higher than the campaign’s Toughness mode. So, at Pulpy Mode, your added Toughness reduces both stun and wound damage from impact and penetrating sources, but not ballistic. At Cinematic Mode, your Dermal Armor Toughness reduces all damage, including ballistic, unless the GM decides otherwise.</p><p>Your dermal reinforcement stacks with armor worn over it, but the alterations to your epidermis make it clear your flesh is armored, ranging from a scaly texture of tiny overlapping armor plates to a thick, leathery texture. You can choose the cosmetic effect, so long as the augmentation is evident. For another additional slot, your Dermal Reinforcement is subcutaneous and otherwise concealed, meaning it is not visible or noticeable until it stops damage.</p><p>Duplicate Appearance Cosmetic (0 Slots)</p><p>Your physical appearance and voice are altered to be an exact duplicate of another person. Outwardly, you look and sound just like that person, as if you were their identical twin, and it takes a TN 17 Perception (Seeing) test to notice any indication that you are not. If you interact with anyone who knows the original person, they can make an opposed Perception (Empathy) test against your Communication (Deception) test result to detect that you are not the genuine article.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

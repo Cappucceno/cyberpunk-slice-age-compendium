@@ -1,0 +1,28 @@
+{
+  "name": "Pain Override",
+  "_id": "e7c9256f6444a96b",
+  "_key": "!items!e7c9256f6444a96b",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 1 Slot</p><p>You can consciously override pain signals from your nerves, letting you effectively “switch off” pain as an Activate action. You’re largely immune to any lasting pain from injury, hazards, or torture, and can ignore its effects, although you still suffer from any associated Health loss or other side effects.</p>",
+    "shortDesc": "1 Slot",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

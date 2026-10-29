@@ -1,0 +1,83 @@
+{
+  "name": "Complications: 6-point",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "66b6fa5a0741894e",
+      "type": "text",
+      "name": "The character becomes incapable of taking any action, at the end of each of their turns, they can make a TN 15 Willpower (Self-Discipline) test, if they succeed, they shake off the complication and can act normally again on their next turn.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!919ed3425d7a2127.66b6fa5a0741894e"
+    },
+    {
+      "_id": "cd58835c47148272",
+      "type": "text",
+      "name": "The character must succeed on a TN 15 Willpower (Self- Discipline) test or take a random action chosen by the GM on their next turn.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!919ed3425d7a2127.cd58835c47148272"
+    },
+    {
+      "_id": "1f9ad74b6beaa327",
+      "type": "text",
+      "name": "If the character has less than half their normal Health, they must succeed on a TN 15 Constitution (Stamina) test, or their condition immediately becomes dying.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!919ed3425d7a2127.1f9ad74b6beaa327"
+    }
+  ],
+  "formula": "1d3",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "919ed3425d7a2127",
+  "_key": "!tables!919ed3425d7a2127"
+}

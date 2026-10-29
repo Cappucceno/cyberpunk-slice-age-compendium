@@ -1,0 +1,103 @@
+{
+  "name": "Complications: 3-point",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 3: sample Complications for characters over their augmentation Capacity",
+  "results": [
+    {
+      "_id": "19b4031773afde98",
+      "type": "text",
+      "name": "The character automatically fails a test or attack roll of the GM’s choice",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6f65bc2fd1c890a0.19b4031773afde98"
+    },
+    {
+      "_id": "9b0c6e5ab59e811c",
+      "type": "text",
+      "name": "A piece of equipment (not an augmentation) in the character’s possession breaks (jams, overloads, etc.) and cannot be used until it is reset or repaired.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6f65bc2fd1c890a0.9b0c6e5ab59e811c"
+    },
+    {
+      "_id": "c2141655f4b58f53",
+      "type": "text",
+      "name": "The character can take a major or minor action on their next turn, but not both.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6f65bc2fd1c890a0.c2141655f4b58f53"
+    },
+    {
+      "_id": "4d3db0675c29423b",
+      "type": "text",
+      "name": "The character is automatically surprised the next time initiative is rolled for a combat encounter (see Surprise on p. 128 of the Modern AGE Basic Rulebook).",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6f65bc2fd1c890a0.4d3db0675c29423b"
+    }
+  ],
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "fb23155d7697b27f",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "6f65bc2fd1c890a0",
+  "_key": "!tables!6f65bc2fd1c890a0"
+}

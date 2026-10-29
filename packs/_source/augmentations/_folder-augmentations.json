@@ -1,0 +1,17 @@
+{
+  "name": "Augmentations",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "9b5157ef1af88a40",
+  "_key": "!folders!9b5157ef1af88a40",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

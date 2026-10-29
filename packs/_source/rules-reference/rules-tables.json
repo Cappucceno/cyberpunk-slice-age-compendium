@@ -1,0 +1,90 @@
+{
+  "name": "Rules Tables",
+  "pages": [
+    {
+      "_id": "d8ac7f445870b8a9",
+      "name": "Automation Classes",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Automation Class</th><th>Test Bonus</th><th>Aid Bonus</th><th>Routine Action</th></tr></thead><tbody><tr><td>Poor</td><td>0</td><td>0</td><td>None</td></tr><tr><td>Basic</td><td>+2</td><td>0</td><td>13 (3)</td></tr><tr><td>Standard</td><td>+4</td><td>0</td><td>15 (4)</td></tr><tr><td>Advanced</td><td>+6</td><td>+1</td><td>17 (5)</td></tr><tr><td>Restricted</td><td>+8</td><td>+2</td><td>19 (6)</td></tr><tr><td>Secret</td><td>+10</td><td>+3</td><td>21 (7)</td></tr></tbody></table>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.d8ac7f445870b8a9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "04c4c94f48f2e3f5",
+      "name": "IT Firewall",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Firewall</th><th>Resources TN</th><th>Structure</th><th>Integrity/Crypto</th></tr></thead><tbody><tr><td>Weak</td><td>-3</td><td>-10</td><td>-2</td></tr><tr><td>Typical</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Strong</td><td>+3</td><td>+10</td><td>+1</td></tr><tr><td>Hardened</td><td>+6</td><td>+20</td><td>+2</td></tr><tr><td>Ultra-Secure</td><td>+9</td><td>+30</td><td>+3</td></tr></tbody></table>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.04c4c94f48f2e3f5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "2ea5fe020e46ad03",
+      "name": "Hit Locations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Lowest Attack Die</th><th>Location/Penalty</th></tr></thead><tbody><tr><td>1–2</td><td>Torso/–2</td></tr><tr><td>3</td><td>Dominant Arm/–3</td></tr><tr><td>4</td><td>Non-Dominant Arm/–3</td></tr><tr><td>5</td><td>Leg/–4</td></tr><tr><td>6</td><td>Head/–5</td></tr></tbody></table>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!5e58298b4d064864.2ea5fe020e46ad03",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "5e58298b4d064864",
+  "_key": "!journal!5e58298b4d064864",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

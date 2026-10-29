@@ -1,0 +1,28 @@
+{
+  "name": "Barefoot Treads",
+  "_id": "cc5530f528534e9d",
+  "_key": "!items!cc5530f528534e9d",
+  "folder": "7b5a103c6aa9fafa",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> Cosmetic (0 Slots)</p><p>Your feet are specially reinforced, particularly the soles, which have gripping treads like athletic shoes, meaning you can go barefoot as if you were wearing shoes in terms of moving over surfaces, but without the inconvenience of putting on or taking off worn shoes. Synthetic bodies often have this capability.</p>",
+    "shortDesc": "Cosmetic (0 Slots)",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

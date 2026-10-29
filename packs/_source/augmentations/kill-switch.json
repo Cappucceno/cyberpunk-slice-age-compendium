@@ -1,0 +1,28 @@
+{
+  "name": "Kill-Switch",
+  "_id": "4e218e5a8ca5a06d",
+  "_key": "!items!4e218e5a8ca5a06d",
+  "folder": "9b5157ef1af88a40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Capacity:</strong> 0 Slots</p><p>Augmentations make it easy to install some type of “kill-switch” able to render the subject dead instantly, from a tiny explosive at the base of the brainstem to a time- or signal-release toxin, an electrical jolt that stops the heart, or an artificial stroke from blood vessel constriction. In some cases, a kill-switch might also be able to merely render you unconscious or incapacitate you with overwhelming pain instead of killing you. Usually, a kill-switch can be activated remotely, although it might also be on a timer, or keyed to some other conditions, such as a GPS sensor for when you leave or enter a particular place, or if you are exposed to a particular trigger. In cyberpunk fiction, these types of self-destruct implants are often used as “insurance policies” to protect investments and prevent augments from simply taking off with a lot of expensive hardware in them.</p><p><em>Modern AGE</em> Game Masters can use kill-switch implants as a kind of Complication for characters who exceed their Capacity (see Complications at the start of this chapter). In essence, rather than imposing a particular stunt-effect, the Complication is that the character is beholden to whomever holds the control for their kill-switch. This provides the story explanation for why the character has augmentations in excess of their normal Capacity, and how they are “paying”</p><p>for them. Generally, a kill-switch should be considered worth at least a 4-point Complication, given how it restricts the character’s options. Technically, it is a 6-point Complication in its effect, but its value is reduced because its effect is known and meant not to be used unless necessary.</p>",
+    "shortDesc": "0 Slots",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}
