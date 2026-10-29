@@ -1,0 +1,29 @@
+{
+  "name": "Body Rig",
+  "_id": "ce1fcfc5dd795522",
+  "_key": "!items!ce1fcfc5dd795522",
+  "folder": "d8818eb6b47035ee",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Body rigs were the first true commercial full-immersion VR devices, but they weren’t especially successful. Despite conquering problems with helmet weight and resolution, repetitive strain hazards, and the other pitfalls of VR interfaces, people didn’t like body rigs because you had to wear and share their suits, combining the intimacy of a condom with the reusable features and pitfalls of bowling shoes, expanded to the entire body. As an early device, its base code is easier to access, making it amenable to hardcore hacking. Its relative simplicity also makes it easier to secure. Despite the ick factor, its full-immersion interface is still top-notch. Failings include a lack of raw power, the problems transporting the rig around, and, of course, the ick factor.</p><p>Resources TN 12.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 12,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

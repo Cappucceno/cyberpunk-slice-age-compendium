@@ -1,0 +1,29 @@
+{
+  "name": "Tech Pad",
+  "_id": "34bf7af454ab06db",
+  "_key": "!items!34bf7af454ab06db",
+  "folder": "522de1aed6be1b10",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The tech-focused counterpart of the diagnostic pad, a tech pad has a touchscreen display and a sensor suite designed to analyze electrical, mechanical, and structural information from which to extrapolate schematics and virtual cutaways of nearby objects that attempt to depict their current states. This producing the technological equivalent of the Machine Arcana’s schematic spell (Modern AGE Basic Rulebook, p. 98).</p><p>An augmentation is an engineered change to a character’s body, which can include their brain (and therefore mind) that grants them some improved or additional ability, that augments them in some way. Cyberpunk is often about the ability to modify and augment body and mind and the effects of doing so on both the individual and society. It’s the “cyber-” part of the genre’s name.</p><p>True to the name, many cyberpunk augmentations are cybernetic or bionic, the addition of machine or artificial parts to the body or the replacement of existing body parts with artificial prosthetics, things like cybernetic limbs or sensory organs, even adding computers to the brain and nervous system. This makes the character a cyborg, short for “cybernetic organism,” part biological, part machine. In other instances, augmentations are engineered, but take the form of things like organ transplants, genetic engineering (in vitro or using recombinant DNA and gene-editing), and other biological modifications, sometimes called “wetware” or “biotech.” In some settings, both forms of augmentation are used, although some may show a preference for one over the other.</p><p>Resources TN 11.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

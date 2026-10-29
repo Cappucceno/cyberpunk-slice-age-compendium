@@ -1,0 +1,46 @@
+{
+  "name": "Utility Drone",
+  "_id": "d935b9db30bf5a07",
+  "_key": "!actors!d935b9db30bf5a07",
+  "folder": "d85baf8d8c78498b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "remote operation",
+      "useAbl": "dex"
+    },
+    "capacity": 0,
+    "velocity": {
+      "category": "fast",
+      "catMod": 0
+    },
+    "ramDmg": 0,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>This is a higher end consumer-grade drone with 3D audiovisual capabilities and night vision. Larger models have a 5-pound carrying capacity.</p><p>Speed/Velocity: Fast/0. Armor Rating: 1/1. Health: 10. Automation: Standard.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 1,
+    "partHealth": {
+      "max": 10,
+      "value": 10
+    }
+  },
+  "prototypeToken": {
+    "name": "Utility Drone",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

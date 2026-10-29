@@ -1,0 +1,17 @@
+{
+  "name": "Drones",
+  "type": "Actor",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "d85baf8d8c78498b",
+  "_key": "!folders!d85baf8d8c78498b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

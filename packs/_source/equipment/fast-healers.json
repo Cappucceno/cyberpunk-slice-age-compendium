@@ -1,0 +1,29 @@
+{
+  "name": "Fast-Healers",
+  "_id": "61cf14e981b28eb6",
+  "_key": "!items!61cf14e981b28eb6",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This treatment “kick-starts” an immediate healing reaction. The subject gains the benefits of a breather as soon as the drug takes effect. A character taking fast-healers can also benefit from “extended medical attention” using either the Intelligence (Medicine) test result of whoever doses them or a Constitution (Stamina) test in its place.</p><p>Resources TN 9.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 9,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

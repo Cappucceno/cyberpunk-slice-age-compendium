@@ -1,0 +1,29 @@
+{
+  "name": "Focus",
+  "_id": "925ce5602d7ec39e",
+  "_key": "!items!925ce5602d7ec39e",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These drugs help users to deal with (or at least shrug off) mental and psychological distractions, providing a +1 bonus to Willpower tests for 24 hours. A double-dose increases the bonus to +2, but imposes a –1 penalty to Intelligence tests, as the subject becomes quite single-minded. After a dosage wears off, the subject has a penalty to Willpower tests equal to the bonus they had for eight hours (unless they take another focus dose).</p><p>Resources TN 8.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 8,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Armor Piercing",
+  "_id": "5231a76951ed6d1e",
+  "_key": "!items!5231a76951ed6d1e",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These bullets use special coatings and materials to make them more easily penetrate and slide through armor. Armor piercing rounds allow a character firing the weapon to use the Precise Force stunt with a ballistic damage weapon and for –1 SP cost, but the weapon also does 1 point less damage, due to the tendency of the rounds not to spread, but instead go cleanly through their target.</p><p>Resources TN 7.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

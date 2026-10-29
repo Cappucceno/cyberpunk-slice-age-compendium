@@ -1,0 +1,29 @@
+{
+  "name": "SERP",
+  "_id": "132217b8640d8df5",
+  "_key": "!items!132217b8640d8df5",
+  "folder": "522de1aed6be1b10",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A thin box small enough to carry on one hip, a SERP (Synthetic Emergency Repair Kit) contains miniaturized tools and basic synthetic life components that allow the user to perform the First Aid action on synthetic beings, as well as subjects created through related technologies, even though this is not normally permitted (See Synthetic Bodies in Chapter 1). The user makes an Intelligence (Synthlife) test instead of an Intelligence (Medicine) test. A standard SERP contains the power and components to do this five times.</p><p>Resources TN 12.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 12,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Special Ammunition",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "dd9dfc673dc4ad8e",
+  "_key": "!folders!dd9dfc673dc4ad8e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

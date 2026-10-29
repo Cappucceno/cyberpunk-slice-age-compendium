@@ -1,0 +1,46 @@
+{
+  "name": "Spy Drone",
+  "_id": "57124d55d249f640",
+  "_key": "!actors!57124d55d249f640",
+  "folder": "d85baf8d8c78498b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "remote operation",
+      "useAbl": "dex"
+    },
+    "capacity": 0,
+    "velocity": {
+      "category": "standard",
+      "catMod": 0
+    },
+    "ramDmg": 0,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>This microdrone is either made from advanced translucent materials or has been designed to resemble a local insect. Either way, it’s the size of a honeybee. In campaigns featuring advanced biotechnology, it might even be an insect with implanted recording and control systems. A spy drone has a +5 bonus to tests to either hide itself or conceal its true nature, depending on whether the microdrone is designed for stealth or mimicry, respectively. (These tests usually use Dexterity (Remote Operation)). Its small size holds an impressive sensor package covering infrared and radio waves, as well as infrasound and ultrasound, in addition to human-grade vision and hearing. It even possesses a chemical sensor that allows it to “taste” substances in the air, or on a surface it lands on. When within 20 yards of a target, observers gain +2 to tests to analyze the information it collects.</p><p>Speed/Velocity: 15. Armor Rating: 0. Health: 1. Automation: Standard.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0,
+    "partHealth": {
+      "max": 1,
+      "value": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Spy Drone",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

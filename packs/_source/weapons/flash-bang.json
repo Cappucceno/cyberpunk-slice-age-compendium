@@ -1,0 +1,29 @@
+{
+  "name": "Flash-Bang",
+  "_id": "14c276948f4f8610",
+  "_key": "!items!14c276948f4f8610",
+  "folder": "d4fa1b8fa14e661f",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A flash-bang emits a loud noise and a bright flash of light, intended to blind, deafen, and stun targets. Anyone within 5 yards of the grenade when it goes off must make a TN 15 Constitution (Stamina) test. If it fails, they lose their next round of actions, and are at a –2 penalty on all tests for 1d6 rounds thereafter. If the test succeeds, the target is at only a –1 penalty for 1d3 rounds.</p><p>Focus: Grenades. Resources TN 15.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

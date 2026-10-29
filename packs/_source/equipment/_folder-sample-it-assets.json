@@ -1,0 +1,17 @@
+{
+  "name": "Sample IT Assets",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "d8818eb6b47035ee",
+  "_key": "!folders!d8818eb6b47035ee",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Monofilament Whip",
+  "_id": "abada7374fbcd439",
+  "_key": "!items!abada7374fbcd439",
+  "folder": "eb7d51b23498224b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A strand of monofilament extending up the three meters, with a small weight at the end to control its swing and a handle the filament can retract into when not in use. A monofilament whip (or simply “mono-whip”) is a nearly invisible, razor-sharp flexible weapon. Its wielder can perform the Precise Force stunt for 1 SP rather than 2 and, if they choose to spend 2 SP on the stunt, ignore all the target’s armor rating from equipment. The wielder can also perform the Lightning Attack stunt for 1 SP rather than 2 and can perform the stunt multiple times, until one of the attacks misses. Wielding a mono-whip is dangerous, however. Opponents can perform a special High-Risk stunt against the</p><p>Focus: Flexible. Minimum Strength —. Resources TN 14.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "flexible",
+    "minStr": 0,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

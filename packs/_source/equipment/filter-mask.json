@@ -1,0 +1,29 @@
+{
+  "name": "Filter-Mask",
+  "_id": "9808bcce4df649b3",
+  "_key": "!items!9808bcce4df649b3",
+  "folder": "522de1aed6be1b10",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A facemask covering the nose and mouth, and often including goggles or eye-coverings. A filter-mask protects the wearer from inhaled irritants such as tear gas (see GRENADES, previously) and lighter versions of filter-masks are common in some cyberpunk settings to deal with the high levels of atmospheric pollution.</p><p>Resources TN 11.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

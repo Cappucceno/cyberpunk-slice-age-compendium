@@ -1,0 +1,42 @@
+{
+  "name": "Tactical GEV",
+  "_id": "a3650962f61bc5d4",
+  "_key": "!actors!a3650962f61bc5d4",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 2,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 8,
+    "velocity": {
+      "category": "extreme",
+      "catMod": 0
+    },
+    "ramDmg": 4,
+    "hull": 2,
+    "cost": 0,
+    "description": "<p>This small GEV can fly to higher altitudes when required, making it useful for transporting small numbers of troops to inaccessible areas, the way helicopters did in the 20th Century. It also functions as a direct assault or fire support vehicle. An onboard turret with a .50 machine gun (anti-material rifle game statistics but fully automatic and belt fed, making reloads unnecessary) can be further augmented with a door gunner on each side and two hard-points for additional light ordnance or pods containing other equipment.</p><p>Handling +2; velocity Extreme/0; hull 2; cannot be purchased under ordinary circumstances.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Tactical GEV",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

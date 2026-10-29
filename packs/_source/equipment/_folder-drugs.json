@@ -1,0 +1,17 @@
+{
+  "name": "Drugs",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "fa8d856bb2f1ea21",
+  "_key": "!folders!fa8d856bb2f1ea21",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

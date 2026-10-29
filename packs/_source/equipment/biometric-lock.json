@@ -1,0 +1,29 @@
+{
+  "name": "Biometric Lock",
+  "_id": "f95d17bbbfcac7a0",
+  "_key": "!items!f95d17bbbfcac7a0",
+  "folder": "17333942c4eb6a57",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The weapon’s grip has sensors allowing it to read finger- and palm-prints, and it unlocks its safeties only for authorized users. This prevents a weapon from being taken and used against its owner. In some cyberpunk settings, a biometric lock might also be remote-controlled, such as in the case of a security or police force who can only use certain weapons with permission from their higher-ups at headquarters.</p><p>Resources TN 13.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 13,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Op Gear",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 600000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "522de1aed6be1b10",
+  "_key": "!folders!522de1aed6be1b10",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

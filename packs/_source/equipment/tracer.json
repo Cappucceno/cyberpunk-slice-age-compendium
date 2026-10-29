@@ -1,0 +1,29 @@
+{
+  "name": "Tracer",
+  "_id": "a6d95f2d254eb755",
+  "_key": "!items!a6d95f2d254eb755",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Bullets trail a bright “tracer” line through the air, easily visible, particularly in darkness or dim light, showing their trajectory. Tracers are typically used in automatic weapons, with every third or fourth bullet a tracer round. Whenever a character performs an Automatic Weapon stunt using a gun loaded with tracers, they gain an additional +1 bonus to their next attack roll with that weapon as the tracers help them to aim.</p><p>ammoresources tn* Armor Piercing7</p><p>Dart6</p><p>Resources TN 6.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 6,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

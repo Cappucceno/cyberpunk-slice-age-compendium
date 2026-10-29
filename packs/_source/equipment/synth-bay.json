@@ -1,0 +1,29 @@
+{
+  "name": "Synth Bay",
+  "_id": "214ac307d424975f",
+  "_key": "!items!214ac307d424975f",
+  "folder": "522de1aed6be1b10",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>An automated repair bay optimized to treat synthetic bodies. Depending on how synthetic characters function in the campaign, this may also function for related creations, such as robots in games where synthetic characters are electromechanical in nature. The bay contains all the diagnostic sensors and tools required to address most problems. The operator gains a +1 bonus to Intelligence (Synthlife) tests, as well as +1 to tests utilizing a focus related to the nature of synthetic life (or at least one variety of it) in the campaign, such as Intelligence (Chemistry) for nanotech-based synthlife. The user can attempt tests that require these focuses whether they have them or not if they can follow the embedded expert system’s instructions. An advanced synth bay (+2 Resources cost) can perform repairs relevant to the focuses it enhances automatically, if they have a TN of 11 or less.</p><p>Resources TN 14.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Antigeriatrics",
+  "_id": "226e09632ac2bec5",
+  "_key": "!items!226e09632ac2bec5",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Drug treatments can halt or reverse the shortening of telomeres, the “biological clock” of cells, as well as preventing other biological effects of aging. Depending on the setting, antigeriatrics may slow the aging process,</p><p>In cyberpunk settings things like analgesics, psychotropics, sedatives, and stimulants will also be used “recreationally,” either for fun or to self-medicate various mental and emotional states. Connoisseurs may regulate their brain-chemistry and metabolism like a machine they can fine-tune to select whatever mental or emotional state they want. The desperate may become dependent on biochemical treatments to deal with the harsh realities of daily life, or they start out using certain drugs for legitimate medical purposes, but then become hooked on them and unable to function without them.</p><p>perhaps even halting it altogether, making the subject effectively ageless. The subject must continue receiving treatments to maintain the effect however, and treatments don’t necessarily prevent other diseases or health conditions. Such anti-aging treatments tend to be the province of the wealthy in cyberpunk settings, helping to ensure an oligarchy of near-immortals able to continue to accumulate wealth and power throughout their vastly extended lives.</p><p>Resources TN 14+ (monthly).</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

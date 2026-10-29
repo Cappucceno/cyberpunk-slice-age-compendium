@@ -1,0 +1,29 @@
+{
+  "name": "Explosive",
+  "_id": "12b74ca3e5cea862",
+  "_key": "!items!12b74ca3e5cea862",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The opposite of armor piercing bullets in some ways, explosive bullets spread and flatted even more when they strike their target, causing more pronounced damage. Explosive bullets inflict +2 damage to “soft” targets with no</p><p>Ballistic armor, but –2 damage against targets that do have Ballistic armor.</p><p>Resources TN 7.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

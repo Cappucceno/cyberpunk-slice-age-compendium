@@ -1,0 +1,46 @@
+{
+  "name": "Slammer",
+  "_id": "f117f8e7f9dab6fe",
+  "_key": "!actors!f117f8e7f9dab6fe",
+  "folder": "d85baf8d8c78498b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "remote operation",
+      "useAbl": "dex"
+    },
+    "capacity": 0,
+    "velocity": {
+      "category": "fast",
+      "catMod": 3
+    },
+    "ramDmg": 0,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>Typically painted in dark colors or camouflage, a slammer is designed to crash into its target at high speed and explode. Slammers are usually given face and gait information about living targets, or the coordinates and appearance of sites and objects, after which they either crash into their quarry after a direct flight, or loiter in the air, or land at an out of the way midpoint, until their target approaches or a designated time arrives. Upon impact, a slammer inflicts 2d6 impact wound damage, before exploding for 6d6 ballistic wound damage. The explosion has a 4-yard radius and obliterates the drone. Larger slammers pack more explosive power.</p><p>Speed/Velocity: Fast/+3. Armor Rating: 2/4. Health: 10. Automation: Standard.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 4,
+    "partHealth": {
+      "max": 10,
+      "value": 10
+    }
+  },
+  "prototypeToken": {
+    "name": "Slammer",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

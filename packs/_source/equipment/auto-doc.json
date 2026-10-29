@@ -1,0 +1,29 @@
+{
+  "name": "Auto-Doc",
+  "_id": "5b7eabab378c0252",
+  "_key": "!items!5b7eabab378c0252",
+  "folder": "bac3a5b5f93cf04d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>An AI expert system that can walk a user through essential medical treatments, effectively providing a +1 bonus to Intelligence (Medicine) tests and allowing characters lacking the focus to still make tests, so long as they can follow the auto-doc’s written and audio instructions. More advanced auto-docs (+2 to Resources cost) are installed in robotic surgical suites and can perform routine surgeries and other medical treatments with a TN of 11 or less automatically. This includes automatically stabilizing a dying patient if that is possible.</p><p>Resources TN 14.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

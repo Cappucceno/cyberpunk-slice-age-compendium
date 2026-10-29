@@ -1,0 +1,39 @@
+{
+  "name": "Shock Knuckles",
+  "_id": "026946757c6fa2ba",
+  "_key": "!items!026946757c6fa2ba",
+  "folder": "2947f41f789eb664",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Compact battery packs with conductive surfaces over the wearer’s knuckles, shock knuckles inflict a potent electrical shock when they strike a target, much like a stun baton: The target must succeed on a Constitution (Stamina) test with a TN of 10 + damage inflicted by the brawling strike or be paralyzed for 1d6 rounds. If the brawling strike does not inflict any damage due to the target’s armor, no test against the paralyzing effect is needed.</p><p>The listed damage is in addition to the unarmed attack's normal damage.</p><p>Focus: Brawling. Minimum Strength —. Resources TN 8.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "brawling",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "3",
+    "extraValue": 1,
+    "dmgAbl": "str",
+    "dmgType": "stun",
+    "dmgSource": "impact",
+    "damageFormula": "1d3+1",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 8,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

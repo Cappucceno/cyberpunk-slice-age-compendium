@@ -1,0 +1,29 @@
+{
+  "name": "Analgesics",
+  "_id": "7c6610644b110be4",
+  "_key": "!items!7c6610644b110be4",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Advanced pain-killing drugs effectively eliminate any test penalties due to pain, injury, or discomfort, although they do not remove the underlying cause of the pain. Analgesics also tend to make the user a bit reckless, providing a +1 bonus to Willpower tests involving pain or risk.</p><p>Resources TN 7.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

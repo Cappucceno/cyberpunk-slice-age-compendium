@@ -1,0 +1,42 @@
+{
+  "name": "Tiltrotor Transport",
+  "_id": "82c494d89c24525a",
+  "_key": "!actors!82c494d89c24525a",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": -1,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 24,
+    "velocity": {
+      "category": "extreme",
+      "catMod": 0
+    },
+    "ramDmg": 4,
+    "hull": 3,
+    "cost": 0,
+    "description": "<p>This vehicle uses large rotors which change from vertical to horizontal orientations to switch from VTOL functions to lateral travel. Originally military transports, new VTOLs are popular for light to medium transportation needs between corporate compounds and other facilities where runways may not be available.</p><p>Handling -1; velocity Extreme/0; hull 3; Resources TN 23.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Tiltrotor Transport",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

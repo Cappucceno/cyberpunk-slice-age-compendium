@@ -1,0 +1,29 @@
+{
+  "name": "Memory",
+  "_id": "1012ed684c5e90ef",
+  "_key": "!items!1012ed684c5e90ef",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Two related types of drugs fall into this category. The first enhances the subject’s memory. While they are under the effects (for the next 3+1d3 hours), they have an eidetic memory for anything they experience, and an easier time recalling long-term memories, providing a +2 bonus to the Stunt Die for any related tests. The other version of memory drugs encodes other memories biochemically and “feeds” them to the subject. This can convey information or experience to the user, or a pleasant “show” (or terrible torment) depending on the nature of the memories imparted. Both memory drugs are also used in interrogation: The first makes it more likely the subject can recall information and ensures a perfect recall of any tortures they suffer, while the second can be used to confuse, torment, or even brainwash a subject over time.</p><p>Resources TN 9.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 9,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

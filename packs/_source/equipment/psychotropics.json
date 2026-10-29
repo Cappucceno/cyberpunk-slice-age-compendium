@@ -1,0 +1,29 @@
+{
+  "name": "Psychotropics",
+  "_id": "fb12a87a5986bfb4",
+  "_key": "!items!fb12a87a5986bfb4",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These drugs cause powerful hallucinations and make it difficult for the subject to distinguish what is real. Once the drug has taken effect, it requires a TN 13 Constitution</p><p>(Tolerance) test for the character to take actions; failure means they are too distracted or caught up in the experience. Even if they succeed, a character on psychotropics has a –2 penalty to their attack rolls and Dexterity, Perception, and Willpower tests. A psychotropic lasts anywhere from an hour to eight hours or more, depending on the drug and the dosage.</p><p>Resources TN 9.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 9,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

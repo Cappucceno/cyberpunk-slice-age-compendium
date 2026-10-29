@@ -1,0 +1,29 @@
+{
+  "name": "Deck and ‘Trodes",
+  "_id": "afdd9defa6d153b5",
+  "_key": "!items!afdd9defa6d153b5",
+  "folder": "d8818eb6b47035ee",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A classic input and output combination for cyberwarfare specialists and experienced private operators alike, a deck and ‘trodes consists of a tablet or keyboard (or both) that accepts the user’s commands, and a magnetoelectrical rig in the form of a cap, crown, or simple wire/senor leads that send data directly to sensory areas of the brain selected by the user.</p><p>Resources TN 15.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

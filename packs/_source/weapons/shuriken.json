@@ -1,0 +1,44 @@
+{
+  "name": "Shuriken",
+  "_id": "ce6e3896084ba5da",
+  "_key": "!items!ce6e3896084ba5da",
+  "folder": "9b3933749c18329a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Various types of Japanese “throwing stars” (or throwing spikes for bo shuriken) are forms of throwing knives that often appear in cyberpunk settings. They use the same stats as throwing knives from the Modern AGE Basic Rulebook.</p><p>Focus: Thrown. Minimum Strength —. Resources TN 10.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "thrown",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 10,
+    "ranged": true,
+    "rof": "singleShot",
+    "range": 15,
+    "rangeMax": 22,
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Smartgun",
+  "_id": "fc12d19e6e48cb0e",
+  "_key": "!items!fc12d19e6e48cb0e",
+  "folder": "17333942c4eb6a57",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A smartgun has an on-board computer linked to the user, who must have a commlink implant (see the AUGMENTATIONS chapter for details). The gun transmits telemetry to its user, providing a floating “gunsight” in their line of vision that provides a +1 bonus to attack tests, which stacks with the +2 bonus for aiming with a laser sight (previously). The smartgun also provides data line range to the target, current ammo load, and the ability to designate “friendly” targets that lock-out the gun’s firing mechanism so it cannot accidentally shoot at them. A smartgun may even remove the weapon’s mechanical trigger entirely, fired solely by mental command by its wielder, although this also renders the gun inoperative if the smartgun link is inactive for any reason.</p><p>accessoryresources tn Biometric Lock13</p><p>Flash Suppressor12</p><p>Resources TN 14.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

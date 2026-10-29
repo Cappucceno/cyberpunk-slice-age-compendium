@@ -1,0 +1,39 @@
+{
+  "name": "Knuckle Spikes",
+  "_id": "99485200035ab1ff",
+  "_key": "!items!99485200035ab1ff",
+  "folder": "2947f41f789eb664",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Heavy bands worn over the knuckles, usually equipped with spikes or ridges to inflict +1 additional damage to the wearer’s unarmed brawling strikes.</p><p>The listed damage is in addition to the unarmed attack's normal damage.</p><p>Focus: Brawling. Minimum Strength —. Resources TN 7.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "brawling",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "3",
+    "extraValue": 1,
+    "dmgAbl": "str",
+    "dmgType": "stun",
+    "dmgSource": "impact",
+    "damageFormula": "1d3+1",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Dart",
+  "_id": "2caca781f7ec9d37",
+  "_key": "!items!2caca781f7ec9d37",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>The weapon fires hypodermic darts, which can be loaded with various drugs. Sedatives are the most common. The darts themselves inflict only negligible damage, and 1 or more points of Impact armor blocks them (absent a called shot, see Hit Locations and Called Shots under Armor, following). Darts are not interchangeable with regular ammo and require weapons specifically designed to fire them. See DRUGS for possible dart round loads (not included in the cost of the darts).</p><p>Resources TN 6.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 6,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

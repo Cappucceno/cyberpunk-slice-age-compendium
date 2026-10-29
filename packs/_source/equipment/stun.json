@@ -1,0 +1,29 @@
+{
+  "name": "Stun",
+  "_id": "fefc9c659362377a",
+  "_key": "!items!fefc9c659362377a",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>“Stun” rounds are like gel rounds but designed for more impact. In truth, it causes the firearm to inflict half its usual damage as ballistic stun damage, and half as impact wound damage. Stun rounds can still be lethal; apply their impact wound damage first, and if that brings the target to 0 or less Health, they suffer the normal effects. If the stun damage brings them to 0 Health, they are merely left unconscious.</p><p>Resources TN 7.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

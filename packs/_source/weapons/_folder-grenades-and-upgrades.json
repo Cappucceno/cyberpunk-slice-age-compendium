@@ -1,0 +1,17 @@
+{
+  "name": "Grenades and Upgrades",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "d4fa1b8fa14e661f",
+  "_key": "!folders!d4fa1b8fa14e661f",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

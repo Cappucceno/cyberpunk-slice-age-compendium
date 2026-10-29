@@ -1,0 +1,29 @@
+{
+  "name": "Stimulants",
+  "_id": "488bffb8d3fce333",
+  "_key": "!items!488bffb8d3fce333",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>“Stims” help the subject to stay awake and alert. The user ignores the effects of fatigue for up to eight hours, although they retain any fatigue conditions, and can accumulate more normally. Applied to an unconscious subject, a stim dose awakens them immediately upon taking effect. A stim dose also counteracts a dose of a sedative (previously), the two drugs effectively neutralizing each other.</p><p>Resources TN 8.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 8,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

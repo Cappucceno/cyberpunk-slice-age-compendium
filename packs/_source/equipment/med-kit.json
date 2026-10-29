@@ -1,0 +1,29 @@
+{
+  "name": "Med-Kit",
+  "_id": "11a4c00189b93092",
+  "_key": "!items!11a4c00189b93092",
+  "folder": "bac3a5b5f93cf04d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A portable, water-proof bundle of medical supplies for essential first aid and basic treatment including adhesive medical tape, analgesics, antibiotics, chemical heat and cold packs, disinfectant, gauze, infrared thermometer, med-injector (previously), scalpels, scissors, surgical gloves, and a surgical “stapler” for closing wounds. A med-kit has sufficient supplies for a dozen applications of the First Aid action, or three days of extended medical attention for one patient, before it needs replenishment.</p><p>Resources TN 12.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 12,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

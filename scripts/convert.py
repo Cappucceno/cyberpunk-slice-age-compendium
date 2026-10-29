@@ -16,7 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from blocks import blocks, entries, paras, text  # noqa: E402
-from common import (ABILITIES, Pack, esc, journal_doc, li, make_id, modifier, num, p, parse_ranges, pdftotext,  # noqa: E402
+from common import (ABILITIES, Pack, crop_lines, esc, journal_doc, li, make_id, modifier, num, p, parse_ranges, pdftotext,  # noqa: E402
                     table_doc, table_html)
 
 ABL_PATTERN = "|".join(ABILITIES)
@@ -394,10 +394,217 @@ def rows_to_ranges(rows):
     return [(lo, hi, name) for lo, hi, name in rows]
 
 
+# --------------------------------------------------------------------------- equipment (Chapter 2, p24-37)
+
+def descriptions(pdf, first, last):
+    """{name: [paragraphs]} for 'Name: text' paragraphs and for level-3 headings with the text below them."""
+    out, cur = {}, None
+    for b in blocks(pdf, first, last):
+        if b[0] == "h":
+            cur = b[2] if b[1] == 3 else None
+            if cur:
+                out.setdefault(cur, [])
+        elif b[0] in ("p", "li"):
+            t = text(b[1])
+            m = re.match(r"^([A-Z][A-Za-z0-9\-' /&,.()’]{2,45}?):\s+(\S.*)$", t)
+            if m and len(m.group(1).split()) <= 5:
+                cur = m.group(1)
+                out.setdefault(cur, []).append(m.group(2))
+            elif cur:
+                out[cur].append(t)
+    return {k: v[:3] for k, v in out.items()}
+
+
+def desc_for(defs, name):
+    for key in (name, name.rstrip("s"), name + "s"):
+        if defs.get(key):
+            return defs[key]
+    return []
+
+
+TN_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z0-9'‘’/&\-. ()]*?[A-Za-z)])\s{2,}(?P<tn>\d+\+?(?: \([a-z]+\))?)\*?\s*$")
+
+
+def tn_tables(pdf, first, last):
+    """[(title, [(name, TN)])] for every 'xxx  Resources TN' table in both columns of the pages."""
+    out = []
+    for pg in range(first, last + 1):
+        for side in ("left", "right"):
+            lines = crop_lines(pdf, pg, side)
+            for i, l in enumerate(lines):
+                if not re.search(r"\bResources\s+TN\*?\s*$", l) or re.search(r"Spec|Firewall|Power", l):
+                    continue
+                title = next((x.strip() for x in reversed(lines[:i]) if x.strip()), "")
+                rows = []
+                for x in lines[i + 1:]:
+                    if not x.strip():
+                        if rows:
+                            break
+                        continue
+                    m = TN_ROW.match(x)
+                    if not m:
+                        break
+                    rows.append((m.group("name").strip(), m.group("tn")))
+                if rows:
+                    out.append((title, pg, rows))
+    return out
+
+
+def build_equipment(pdf):
+    pack = Pack("equipment")
+    defs_at = {}
+    for title, pg, rows in tn_tables(pdf, 24, 38):
+        folder = {"Special Ammunition": "Special Ammunition", "Firearm Accessories": "Firearm Accessories", "Medical Equipment": "Medical Equipment",
+                  "Drugs": "Drugs", "Op Gear": "Op Gear"}.get(title)
+        if folder is None:
+            folder = "Sample IT Assets" if any(n in ("Body Rig", "Deck and ‘Trodes") for n, _ in rows) else title
+        defs = defs_at.setdefault(pg, descriptions(pdf, max(24, pg - 1), min(38, pg + 1)))   # same page and the neighbours
+        for name, tn in rows:
+            d = desc_for(defs, name) or desc_for(defs, name.replace(" Ammo", ""))
+            tn_n = int(re.match(r"\d+", tn).group(0))
+            pack.item(name, "equipment", {
+                "longDesc": "".join(p(x) for x in d) + p(f"Resources TN {tn}" + ("." if not tn.endswith(")") else ".")),
+                "shortDesc": "", "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": tn_n, "modifiers": {},
+            }, "briefcase.svg", folder=folder)
+    return pack
+
+
+# --------------------------------------------------------------------------- weapons, armor, drones and vehicles
+
+WEAPON_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z\-' ]+?)\s{2,}(?P<dmg>\+\d\*{0,2}|\d+d\d+(?:[+\-]\d+)?|[—–-])\s+(?P<minstr>[–—-]?\d*)\s+"
+                        r"(?P<src>[IPB–—-])\s+(?P<sw>[SW–—-])\s+(?P<tn>\+?\d+\*{0,2})(?P<rest>.*)$")
+FOCUS_LINE = re.compile(r"^\s*Focus: (.+?)\s*$")
+
+
+def parse_weapon_rows(pdf):
+    rows, focus, ranged = [], None, False
+    for line in pdftotext(pdf, 25, 25, "-layout")[0].splitlines():
+        if re.search(r"Weapon\s+Damage", line) or re.search(r"\bWeapon\b.*\bROF\b", line):
+            ranged = "ROF" in line
+        m = FOCUS_LINE.match(line)
+        if m:
+            focus = m.group(1)
+            continue
+        m = WEAPON_ROW.match(line)
+        if m and focus:
+            d = m.groupdict()
+            d["focus"], d["ranged"] = focus, ranged
+            d["rest"] = d["rest"].split()
+            rows.append(d)
+    return rows
+
+
+def build_weapons(pdf):
+    """The weapons that have a damage of their own; blade upgrades and grenades without damage go to the equipment pack."""
+    pack = Pack("weapons")
+    defs = descriptions(pdf, 24, 26)
+    for w in parse_weapon_rows(pdf):
+        if not re.match(r"(\d+d\d+|\+1)", w["dmg"]):
+            continue
+        base = re.match(r"\+(\d)", w["dmg"])
+        formula = "1d3+" + base.group(1) if base else w["dmg"]    # '+1*' is added to the unarmed attack's 1d3
+        n, dt = re.match(r"(\d+)d(\d+)", formula).groups()
+        extra = re.search(r"\+(\d+)$", formula)
+        text_ = "".join(p(x) for x in desc_for(defs, w["name"]))
+        note = "<p>The listed damage is in addition to the unarmed attack's normal damage.</p>" if base else ""
+        s = {
+            "longDesc": text_ + note + p(f"Focus: {w['focus']}. Minimum Strength {w['minstr']}. Resources TN {w['tn'].rstrip('*')}."), "shortDesc": "",
+            "useAbl": "acc" if w["ranged"] else "fight", "useFocus": w["focus"].lower(), "minStr": num(w["minstr"]), "nrDice": n, "diceType": dt,
+            "extraValue": int(extra.group(1)) if extra else 0, "dmgAbl": "per" if w["ranged"] else "str",
+            "dmgType": "stun" if w["sw"] == "S" else "wound", "dmgSource": "ballistic" if w["src"] == "B" else "impact",
+            "damageFormula": formula, "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": num(w["tn"].rstrip("*")),
+            "ranged": w["ranged"],
+        }
+        if w["ranged"]:
+            rest = w["rest"]
+            s.update({"rof": "singleShot" if rest and rest[0].startswith("SS") else "semiAuto", "range": 15, "rangeMax": 22, "capacity": 0,
+                      "reload": "major" if "Major" in rest else "minor"})
+        pack.item(w["name"], "weapon", s, "fist.svg", folder=w["focus"])
+    # grenades without damage and the monofilament upgrade are plain equipment
+    for w in parse_weapon_rows(pdf):
+        if re.match(r"(\d+d\d+|\+1)", w["dmg"]):
+            continue
+        d = "".join(p(x) for x in desc_for(defs, w["name"]) or desc_for(defs, w["name"] + "s") or desc_for(defs, w["name"] + "-Bangs"))
+        pack.item(w["name"], "equipment", {
+            "longDesc": d + p(f"Focus: {w['focus']}. Resources TN {w['tn']}."), "shortDesc": "", "weight": 0, "cost": 0, "quantity": 1,
+            "equiped": False, "purchaseTN": num(w["tn"].strip("+*")), "modifiers": {},
+        }, "briefcase.svg", folder="Grenades and Upgrades")
+    return pack
+
+
+ARMOR_ROW = re.compile(r"(?:^|\s{3,})(?P<name>[A-Z][A-Za-z/\- ]+?)\s{2,}(?P<i>\d+)I/(?P<b>\d+)B\s+(?P<pen>[–\-]?\d+)\s+(?P<tn>\d+)\s*$")
+
+
+def build_armor(pdf):
+    pack = Pack("armor")
+    defs = descriptions(pdf, 28, 28)
+    for line in pdftotext(pdf, 28, 28, "-layout")[0].splitlines():
+        m = ARMOR_ROW.search(line)
+        if not m:
+            continue
+        d = m.groupdict()
+        mods = dict([modifier("impactArmor", d["i"]), modifier("ballisticArmor", d["b"]), modifier("armorPenalty", abs(num(d["pen"])))])
+        text_ = "".join(p(x) for x in desc_for(defs, d["name"]) or desc_for(defs, d["name"].split("/")[0]))
+        pack.item(d["name"], "equipment", {
+            "longDesc": text_ + p(f"Armor rating {d['i']}I/{d['b']}B, armor penalty {num(d['pen'])}, Resources TN {d['tn']}."), "shortDesc": "",
+            "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": int(d["tn"]), "modifiers": mods,
+        }, "briefcase.svg", folder="Armor")
+    return pack
+
+
+VELOCITY = {"Standard": "standard", "Fast": "fast", "Very Fast": "veryFast", "Extreme": "extreme"}
+VEHICLE_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z\- ]+?)\s{2,}(?P<hand>[+–\-]?\d+|\*+)\s+(?P<cap>\d+)\s+(?P<vel>(?:Standard|Fast|Very Fast|Extreme)/[+–\-]?\d*\*{0,5})\s+"
+                         r"(?P<ram>\d+d6)\s+(?P<hull>\d+|\*+)\s+(?P<tn>\d+|N/A\*+)")
+DRONE_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z\- ]+?)\s{2,}(?P<spd>Fast/[+–\-]?\d+|\d+)\s+(?P<ar>\d+(?:/\d+)?)\s+(?P<hp>\d+)\s+(?P<auto>[A-Z][a-z]+)\s*$")
+FOCUS_ABL = {"Acrobatics": "dex", "Piloting": "dex", "Remote Operation": "dex", "Running": "cons", "Driving": "dex"}
+
+
+def build_vehicles(pdf):
+    pack = Pack("vehicles", "Actor")
+    defs = descriptions(pdf, 29, 33)
+    page = pdftotext(pdf, 29, 29, "-layout")[0]
+    for line in page.splitlines():
+        m = DRONE_ROW.match(line)
+        if not m:
+            continue
+        d = m.groupdict()
+        cat, _, mod = d["spd"].partition("/")
+        ar = [int(x) for x in d["ar"].split("/")]
+        text_ = "".join(p(x) for x in desc_for(defs, d["name"]) or desc_for(defs, d["name"] + "s"))
+        facts = p(f"Speed/Velocity: {d['spd']}. Armor Rating: {d['ar']}. Health: {d['hp']}. Automation: {d['auto']}.")
+        pack.actor(d["name"], "vehicle", {
+            "handling": {"mod": 0, "useFocus": "remote operation", "useAbl": "dex"}, "capacity": 0,
+            "velocity": {"category": VELOCITY.get(cat, "standard"), "catMod": num(mod) if mod else 0}, "ramDmg": 0, "hull": 0, "cost": 0,
+            "description": text_ + facts, "gmNotes": "", "coverRating": 0, "armorRating": ar[-1],
+            "partHealth": {"max": int(d["hp"]), "value": int(d["hp"])},
+        }, "Drones")
+    focus = None
+    for line in pdftotext(pdf, 31, 31, "-layout")[0].splitlines() + pdftotext(pdf, 30, 30, "-layout")[0].splitlines():
+        m = FOCUS_LINE.match(line[:150])
+        if m:
+            focus = m.group(1)
+            continue
+        m = VEHICLE_ROW.match(line)
+        if m and focus:
+            d = m.groupdict()
+            cls, _, mod = d["vel"].partition("/")
+            text_ = "".join(p(x) for x in desc_for(defs, d["name"]))     # 'Standard/****' etc: see the vehicle description
+            tn = d["tn"] if d["tn"][0].isdigit() else None
+            pack.actor(d["name"], "vehicle", {
+                "handling": {"mod": num(d["hand"]) if d["hand"][0] != "*" else 0, "useFocus": focus.lower(), "useAbl": FOCUS_ABL.get(focus, "dex")},
+                "capacity": int(d["cap"]), "velocity": {"category": VELOCITY[cls], "catMod": num(mod.strip("*")) if mod.strip("*") else 0},
+                "ramDmg": int(d["ram"].split("d")[0]), "hull": int(d["hull"]) if d["hull"][0] != "*" else 0, "cost": 0,
+                "description": text_ + p(f"Handling {d['hand']}; velocity {d['vel']}; hull {d['hull']}; " + (f"Resources TN {tn}." if tn else "cannot be purchased under ordinary circumstances.")),
+                "gmNotes": "", "coverRating": 0, "armorRating": 0,
+            }, focus)
+    return pack
+
+
 # --------------------------------------------------------------------------- main
 
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "character-creation": build_creation,
-            "creation-tables": build_creation_tables}
+            "creation-tables": build_creation_tables, "equipment": build_equipment, "weapons": build_weapons, "armor": build_armor,
+            "vehicles": build_vehicles}
 
 
 def main():

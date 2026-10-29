@@ -1,0 +1,29 @@
+{
+  "name": "Flechette",
+  "_id": "89f11d5682643c2b",
+  "_key": "!items!89f11d5682643c2b",
+  "folder": "dd9dfc673dc4ad8e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Rather than bullets, the firearm shoots small, sharp shards of metal or plastic, inflicting Impact rather than Ballistic damage. This makes Impact armor far more effective against a flechette weapon but Ballistic armor less effective. Flechette ammo is not interchangeable and requires a weapon specifically designed to fire it; flechette guns cannot fire regular bullets nor can regular guns fire flechette ammo.</p><p>Resources TN 6.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 6,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

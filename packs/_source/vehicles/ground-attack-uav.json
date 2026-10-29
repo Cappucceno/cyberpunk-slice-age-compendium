@@ -1,0 +1,42 @@
+{
+  "name": "Ground Attack UAV",
+  "_id": "88a71e70731ff498",
+  "_key": "!actors!88a71e70731ff498",
+  "folder": "172582fc0c682ee4",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "remote operation",
+      "useAbl": "dex"
+    },
+    "capacity": 0,
+    "velocity": {
+      "category": "extreme",
+      "catMod": 2
+    },
+    "ramDmg": 3,
+    "hull": 1,
+    "cost": 0,
+    "description": "<p>This military-grade UAV is designed to loiter over an area to perform reconnaissance or attack ground targets with precision strikes. Its weapons consist of one gatling gun (4d6 + 4 ballistic wound damage, 1000- yard Range factor with 2000-yard maximum range, fully automatic, and belt-fed for no reloading required), and hard-points that can carry up to four air-to-surface missiles, which the GM should treat as hazards using the rules in Chapter 8 of the Modern AGE Basic Rulebook. Unlike other vehicles in this chapter, it has an Advanced automation package by default. The Ground Attack UAV also has an impressive sensor package, allowing anyone with access to its feed to see anything in its line of sight as if it’s close by, and ignore penalties for darkness.</p><p>Handling ***; velocity Extreme/+2; hull 1; cannot be purchased under ordinary circumstances.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Ground Attack UAV",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

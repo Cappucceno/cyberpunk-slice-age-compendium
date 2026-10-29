@@ -1,0 +1,29 @@
+{
+  "name": "Sedatives",
+  "_id": "c243f1fd4995a748",
+  "_key": "!items!c243f1fd4995a748",
+  "folder": "fa8d856bb2f1ea21",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These drugs render the subject unconscious when they take effect and cause them to sleep for eight hours. A character who tries to resist the effect can make a TN 11 Constitution (Tolerance) test to remain awake and active for one minute before they must make another test. A sleeping character under the effect of a sedative can be awoken, but they are groggy and effectively fatigued until the drug wears off without the use of a stimulant to help them overcome the sedative’s effect.</p><p>Resources TN 9.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 9,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

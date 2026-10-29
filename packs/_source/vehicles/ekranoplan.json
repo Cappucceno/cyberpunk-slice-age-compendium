@@ -1,0 +1,42 @@
+{
+  "name": "Ekranoplan",
+  "_id": "92183635b6fda9ff",
+  "_key": "!actors!92183635b6fda9ff",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 1,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 54,
+    "velocity": {
+      "category": "extreme",
+      "catMod": 0
+    },
+    "ramDmg": 4,
+    "hull": 3,
+    "cost": 0,
+    "description": "<p>Pioneered in Russia, these large winged GEVs use aerodynamic shapes and vectored thrust to travel over land and water at heights measured in yards. These operate best on water, where they gain a +1 Velocity modifier, but they cannot traverse steep inclines on land. Smaller and larger models exist.</p><p>Handling +1; velocity Extreme/0; hull 3; cannot be purchased under ordinary circumstances.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Ekranoplan",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

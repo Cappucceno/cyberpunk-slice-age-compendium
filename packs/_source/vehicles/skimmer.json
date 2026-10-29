@@ -1,0 +1,42 @@
+{
+  "name": "Skimmer",
+  "_id": "234f0c175a4c5ae3",
+  "_key": "!actors!234f0c175a4c5ae3",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 2,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 4,
+    "velocity": {
+      "category": "fast",
+      "catMod": 2
+    },
+    "ramDmg": 2,
+    "hull": 1,
+    "cost": 0,
+    "description": "<p>Part of far-future or more stylized cyberpunk worlds, skimmers are essentially flying cars, suspended by an unknown counterbaric-electrogravitic effect. They can hover in mid-air and generate thrust without significant exhaust or the use of moving parts. Plying the heavens so gracefully isn’t for the average person, however. Skimmers are expensive and only practical for the extremely wealthy, military applications, and special police units.</p><p>Handling +2; velocity Fast/+2; hull 1; Resources TN 21.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Skimmer",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

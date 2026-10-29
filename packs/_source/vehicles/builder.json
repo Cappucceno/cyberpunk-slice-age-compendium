@@ -1,0 +1,42 @@
+{
+  "name": "Builder",
+  "_id": "a317813b3551aa7d",
+  "_key": "!actors!a317813b3551aa7d",
+  "folder": "4dc65453147367f4",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": -2,
+      "useFocus": "running",
+      "useAbl": "cons"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "standard",
+      "catMod": 0
+    },
+    "ramDmg": 1,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>This blocky exoskeleton is used for industrial purposes, especially when hazardous materials are involved. It’s slow but strong and tough. Builder exoskeletons are usually painted in bright colors and may have flashing lights to for additional safety, but some military engineering types have more muted colors.</p><p>A builder exoskeleton has the following characteristics:</p><p>An Armor Rating of 14I/6B.</p><p>Handling -2; velocity Standard/****; hull *****; Resources TN 16.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Builder",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

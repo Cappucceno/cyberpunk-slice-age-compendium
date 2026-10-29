@@ -1,0 +1,29 @@
+{
+  "name": "Diagnostic Pad",
+  "_id": "7af8b4b842b7de72",
+  "_key": "!items!7af8b4b842b7de72",
+  "folder": "bac3a5b5f93cf04d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A small tablet-sized device with a touchscreen display and a compact suite of medical sensors for scanning patients as well as analyzing biological samples equipmentresources tn Diagnostic Pad11</p><p>Med-Injector12</p><p>Med-Kit12 Auto-Doc14 drugresources tn*</p><p>Resources TN 11.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

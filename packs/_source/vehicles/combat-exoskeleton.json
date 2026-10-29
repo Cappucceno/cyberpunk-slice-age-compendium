@@ -1,0 +1,42 @@
+{
+  "name": "Combat Exoskeleton",
+  "_id": "6f6fa57f936ddba2",
+  "_key": "!actors!6f6fa57f936ddba2",
+  "folder": "4dc65453147367f4",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "running",
+      "useAbl": "cons"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "fast",
+      "catMod": 0
+    },
+    "ramDmg": 1,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>These exoskeletons are designed for special operations. Operators wear them for swift strikes on hardened targets. This makes them attractive for several violent private-sector applications as well. In some respects, a combat exoskeleton resembles the plate armor of the late Renaissance, since it needs to have the same joint articulation capabilities, but the suit must make room for the electrical motors that power it.</p><p>A combat exoskeleton has the following characteristics:</p><p>An Armor Rating of 10I/10B.</p><p>Handling 0; velocity Fast/*; hull *****; cannot be purchased under ordinary circumstances.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Combat Exoskeleton",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

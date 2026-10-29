@@ -1,0 +1,29 @@
+{
+  "name": "Tear Gas",
+  "_id": "a7b32280a70c5595",
+  "_key": "!items!a7b32280a70c5595",
+  "folder": "d4fa1b8fa14e661f",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A tear gas grenade is like a smoke grenade (previously) but also has a chemical irritant that burns the eyes and lungs. The grenade releases a cloud of gas 5 yards in radius, lasting for 3 + 1d6 rounds. When a target enters the cloud of tear gas, or begins their turn there, they must roll a TN 15 Constitution (Tolerance) test. On a failure, they may only take a single major or minor action on their turn (not both) and are at a –2 penalty to all tests. If the Constitution (Tolerance) test succeeds, the target is at only a –1 penalty to all tests. The effects of the tear gas last for 2d6 rounds after the character leaves the cloud’s area or until the character successfully receives first aid, which ends the effect.</p><p>Focus: Grenades. Resources TN 15.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

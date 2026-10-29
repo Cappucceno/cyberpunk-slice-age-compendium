@@ -1,0 +1,29 @@
+{
+  "name": "Laser Sight",
+  "_id": "0432cc78e233b6e0",
+  "_key": "!items!0432cc78e233b6e0",
+  "folder": "17333942c4eb6a57",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>A low-level laser attached to the gun’s barrel “paints” a small red dot of light where the gun is aimed. A laser light increases the bonus provided by the Aim action to +2. Futuristic laser sights can create dots in non-visible spectra, making them invisible to natural human eyes.</p><p>Resources TN 11.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

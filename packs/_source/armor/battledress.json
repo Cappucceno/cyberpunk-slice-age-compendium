@@ -1,0 +1,60 @@
+{
+  "name": "Battledress",
+  "_id": "79cea32c4a2b0087",
+  "_key": "!items!79cea32c4a2b0087",
+  "folder": "36212464834d9b5a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>This armor is military-grade and designed for battlefield use, likely to show up on the streets only as a high-priced item on the black market or in urban warfare areas. Battledress comes equipped with all the benefits of assault armor (previously) along with a targeting system equivalent to a smartgun (see Weapon Accessories), artificial musculature providing a +2 bonus to Strength (Might) tests, a camouflage package that provides a +2 bonus to Dexterity (Stealth) tests, built-in sensors providing a +2 bonus to Perception tests, and mobility enhancements that provide +2 Speed and a +4 bonus to Constitution (Stamina) tests for long-term movement. Battledress is usually coupled with heavy ordinance, such as an assault rifle with a grenade launcher attachment.</p><p>resources armorratingpenalty tn</p><p>Armor rating 8I/8B, armor penalty -2, Resources TN 18.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 18,
+    "modifiers": {
+      "043bfc82ff4ccab9": {
+        "type": "impactArmor",
+        "formula": "8",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "043bfc82ff4ccab9"
+      },
+      "cb7451a92f79018b": {
+        "type": "ballisticArmor",
+        "formula": "8",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "cb7451a92f79018b"
+      },
+      "2fefd58bdd0a1773": {
+        "type": "armorPenalty",
+        "formula": "2",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "2fefd58bdd0a1773"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

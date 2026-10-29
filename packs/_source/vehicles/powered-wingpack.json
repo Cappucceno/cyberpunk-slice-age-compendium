@@ -1,0 +1,42 @@
+{
+  "name": "Powered Wingpack",
+  "_id": "8ecbce4d4a7ba7a3",
+  "_key": "!actors!8ecbce4d4a7ba7a3",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": -2,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "veryFast",
+      "catMod": 0
+    },
+    "ramDmg": 1,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>This is another one-person wearable vehicle consisting of V-shaped hard wing of advanced materials with multiple jet or rocket engines, worn along with a heat-proof suit. The wingpack is essentially a glider. It must take off from the air, like a parachutist, and after a 20-minute flight time, the user must parachute, as a safe powered landing isn’t possible. Attacks on the wingpack also damage its wearer and force them to make a TN 13 Dexterity (Piloting) test to retain control or fall. The first test does not require an action, but subsequent tests after a failure each require a minor action.</p><p>Handling -2; velocity Very Fast/*; hull 0; Resources TN 16.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Powered Wingpack",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}
